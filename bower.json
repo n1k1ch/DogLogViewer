@@ -1,0 +1,16 @@
+{
+  "name": "DogLogViewer",
+  "version": "0.0.1",
+  "homepage": "https://github.com/n1k1ch/DogLogViewer",
+  "authors": [
+    "Nikita Cherevkov <nikita.cherevkov@gmail.com>"
+  ],
+  "description": "App for viewing logs",
+  "keywords": [
+    "dog",
+    "log",
+    "viewer"
+  ],
+  "license": "MIT",
+  "private": true
+}
