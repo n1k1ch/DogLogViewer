@@ -3,9 +3,11 @@ var rootPath = path.normalize(__dirname + '/../../');
 
 module.exports = {
 	development: {
-		rootPath: rootPath
+		rootPath: rootPath,
+		db: 'mongodb://localhost/dogLogViewer'
 	},
 	production: {
-		rootPath: rootPath
+		rootPath: rootPath,
+		db: 'mongodb://localhost/dogLogViewer'
 	}
 }
