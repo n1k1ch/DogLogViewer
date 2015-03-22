@@ -1,0 +1,4376 @@
+[
+  {
+    "Date": 1426167689455,
+    "Message": "Splash created - no walks in process",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426167722424,
+    "Message": "User trappstacey24@gmail.com logged in",
+    "Severity": "Informational",
+    "Type": "ServerType"
+  },
+  {
+    "Date": 1426167722695,
+    "Message": "Received GPS Config: gpsSleepTime=20, maxAttemptsToFindPoints=20, threshold=30.000000",
+    "Severity": "Informational",
+    "Type": "ServerType"
+  },
+  {
+    "Date": 1426167723044,
+    "Message": "Loaded info about routes - there is no started walks",
+    "Severity": "Informational",
+    "Type": "ServerType"
+  },
+  {
+    "Date": 1426167723310,
+    "Message": "Schedule created, selectedFragmentIndex: 0, memory: Memory: available 228 Mb, total: 1968 Mb, threshold: 64 Mb",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426167723327,
+    "Message": "Schedule resumed",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426167723860,
+    "Message": "Loaded 2 walks for 12 Mar",
+    "Severity": "Informational",
+    "Type": "ServerType"
+  },
+  {
+    "Date": 1426167727959,
+    "Message": "Loaded 1 walks for 13 Mar",
+    "Severity": "Informational",
+    "Type": "ServerType"
+  },
+  {
+    "Date": 1426167728998,
+    "Message": "Loaded 3 walks for 09 Mar",
+    "Severity": "Informational",
+    "Type": "ServerType"
+  },
+  {
+    "Date": 1426167729465,
+    "Message": "Loaded 3 walks for 10 Mar",
+    "Severity": "Informational",
+    "Type": "ServerType"
+  },
+  {
+    "Date": 1426167729931,
+    "Message": "Loaded 2 walks for 11 Mar",
+    "Severity": "Informational",
+    "Type": "ServerType"
+  },
+  {
+    "Date": 1426167730213,
+    "Message": "Loaded walks for month 3, 2015, response: {\"success\":true,\"walks\":[2,5,3,5,5,2,3,2,3,3,2,2,1,1,1,2,2,2,1,1,1,1,2,2,2,1,1,1,1,2,2],\"daysInMonth\":31,\"walksInMonth\":64}",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426167730607,
+    "Message": "Loaded 1 walks for 14 Mar",
+    "Severity": "Informational",
+    "Type": "ServerType"
+  },
+  {
+    "Date": 1426167730933,
+    "Message": "Loaded 1 walks for 15 Mar",
+    "Severity": "Informational",
+    "Type": "ServerType"
+  },
+  {
+    "Date": 1426176987062,
+    "Message": "Schedule created, selectedFragmentIndex: 3, memory: Memory: available 302 Mb, total: 1968 Mb, threshold: 64 Mb",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426176987285,
+    "Message": "Schedule resumed",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426176987287,
+    "Message": "Reloading walks beacuse last loading was 2 hours ago",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426176987288,
+    "Message": "Reload from Monthly",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426176988635,
+    "Message": "Loaded walks for month 3, 2015, response: {\"success\":true,\"walks\":[2,5,3,5,5,2,3,2,3,3,2,2,1,1,1,2,2,2,1,1,1,1,2,2,2,1,1,1,1,2,2],\"daysInMonth\":31,\"walksInMonth\":64}",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426176990893,
+    "Message": "Loaded 2 walks for 12 Mar",
+    "Severity": "Informational",
+    "Type": "ServerType"
+  },
+  {
+    "Date": 1426179149404,
+    "Message": "Schedule resumed",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426179151514,
+    "Message": "DogInfo resumed",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426179620412,
+    "Message": "DogInfo resumed",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426179620885,
+    "Message": "Checked walk time and current time, diff is 20.000000 seconds",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426179624670,
+    "Message": "Walk state: scheduled (on Dog Info)",
+    "Severity": "Informational",
+    "Type": "ServerType"
+  },
+  {
+    "Date": 1426179625182,
+    "Message": "Walk started (from Dog info after sending start_walk)",
+    "Severity": "Informational",
+    "Type": "ServerType"
+  },
+  {
+    "Date": 1426179625380,
+    "Message": "Starting current walk, id: 54f64bc5eb66e103000004a9",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426179625476,
+    "Message": "Start collecting GPS updates, walkId: 54f64bc5eb66e103000004a9, gps enabled: false",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426179625522,
+    "Message": "CurrTime: 1426179625522, will be completed in: 1799927, will be stopped in: 5399927",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426179625896,
+    "Message": "WalkMap - refreshing views - startedWalk is NOT completed, [stop button] is gone",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426179625898,
+    "Message": "Map opened with GPS disabled",
+    "Severity": "Warning",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426179688369,
+    "Message": "WalkMap - refreshing views - startedWalk is NOT completed, [stop button] is gone",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426179710316,
+    "Message": "WalkMap - refreshing views - startedWalk is NOT completed, [stop button] is gone",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426179838833,
+    "Message": "WalkMap - refreshing views - startedWalk is NOT completed, [stop button] is gone",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426179958262,
+    "Message": "WalkMap - refreshing views - startedWalk is NOT completed, [stop button] is gone",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426179967677,
+    "Message": "Accuracy = 9.600000 is fine",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426179967726,
+    "Message": "Sending points for walk id: 54f64bc5eb66e103000004a9, request: ...2%3A40.810843%2C%22lng%22%3A-73.937405%2C%22acc%22%3A9.6%2C%22ts%22%3A1426179958%7D%5D&ts=1426179967 Accuracy: 9.600000",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426179970322,
+    "Message": "Data sent to server, walkId: 54f64bc5eb66e103000004a9",
+    "Severity": "Informational",
+    "Type": "ServerType"
+  },
+  {
+    "Date": 1426179993696,
+    "Message": "WalkMap - refreshing views - startedWalk is NOT completed, [stop button] is gone",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426180007745,
+    "Message": "WalkMap - refreshing views - startedWalk is NOT completed, [stop button] is gone",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426180015076,
+    "Message": "WalkMap - refreshing views - startedWalk is NOT completed, [stop button] is gone",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426180015079,
+    "Message": "showUploadPhotoConfirm",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426180016378,
+    "Message": "\"Yes\" pressed",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426180016398,
+    "Message": "compressImage, file is /storage/sdcard0/DCIM/Camera/1426180008694.jpg",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426180016402,
+    "Message": "uploadToAmazon, file is /storage/sdcard0/DCIM/Camera/1426180008694.jpg, memory: Memory: available 261 Mb, total: 1968 Mb, threshold: 64 Mb",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426180016430,
+    "Message": "Starting to compress",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426180016975,
+    "Message": "Photo compressed",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426180017393,
+    "Message": "Start putting object for app-snapshots/54b3e0aa3687fe02000000a5/54ac36b41c2e38020000150e/1426180008694.jpg",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426180024571,
+    "Message": "Photo uplodaded to Amazon",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426180025030,
+    "Message": "Photo was uploaded. Response: {\"success\":true,\"path\":\"/app-snapshots/54b3e0aa3687fe02000000a5/54ac36b41c2e38020000150e/1426180008694.jpg\"}",
+    "Severity": "Informational",
+    "Type": "ServerType"
+  },
+  {
+    "Date": 1426180093255,
+    "Message": "WalkMap - refreshing views - startedWalk is NOT completed, [stop button] is gone",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426180108068,
+    "Message": "WalkMap - refreshing views - startedWalk is NOT completed, [stop button] is gone",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426180124666,
+    "Message": "WalkMap - refreshing views - startedWalk is NOT completed, [stop button] is gone",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426180133779,
+    "Message": "WalkMap - refreshing views - startedWalk is NOT completed, [stop button] is gone",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426180170923,
+    "Message": "WalkMap - refreshing views - startedWalk is NOT completed, [stop button] is gone",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426180171719,
+    "Message": "Sending add_poop: https://swifto-production-api.herokuapp.com/0.1/app/add_poop/asd/version=1.2.9&walkId=54f64bc5eb66e103000004a9&dogId=54b3e0aa3687fe02000000a5&lat=40810843&lng=-73937405&ts=1426180171",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426180172258,
+    "Message": "Meet or poo sent to server, walkId: 54f64bc5eb66e103000004a9",
+    "Severity": "Informational",
+    "Type": "ServerType"
+  },
+  {
+    "Date": 1426180202850,
+    "Message": "WalkMap - refreshing views - startedWalk is NOT completed, [stop button] is gone",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426180214461,
+    "Message": "Accuracy = 5.400000 is fine",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426180214497,
+    "Message": "Sending points for walk id: 54f64bc5eb66e103000004a9, request: ...2%3A40.812423%2C%22lng%22%3A-73.937069%2C%22acc%22%3A5.4%2C%22ts%22%3A1426180205%7D%5D&ts=1426180214 Accuracy: 5.400000",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426180227648,
+    "Message": "Data sent to server, walkId: 54f64bc5eb66e103000004a9",
+    "Severity": "Informational",
+    "Type": "ServerType"
+  },
+  {
+    "Date": 1426180269598,
+    "Message": "WalkMap - refreshing views - startedWalk is NOT completed, [stop button] is gone",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426180347500,
+    "Message": "WalkMap - refreshing views - startedWalk is NOT completed, [stop button] is gone",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426180521373,
+    "Message": "Accuracy = 9.200000 is fine",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426180521458,
+    "Message": "Sending points for walk id: 54f64bc5eb66e103000004a9, request: ...22%3A40.81069%2C%22lng%22%3A-73.939219%2C%22acc%22%3A9.2%2C%22ts%22%3A1426180511%7D%5D&ts=1426180521 Accuracy: 9.200000",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426180522856,
+    "Message": "Data sent to server, walkId: 54f64bc5eb66e103000004a9",
+    "Severity": "Informational",
+    "Type": "ServerType"
+  },
+  {
+    "Date": 1426180632682,
+    "Message": "WalkMap - refreshing views - startedWalk is NOT completed, [stop button] is gone",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426180634848,
+    "Message": "WalkMap - refreshing views - startedWalk is NOT completed, [stop button] is gone",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426180707588,
+    "Message": "WalkMap - refreshing views - startedWalk is NOT completed, [stop button] is gone",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426180724007,
+    "Message": "WalkMap - refreshing views - startedWalk is NOT completed, [stop button] is gone",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426180764140,
+    "Message": "WalkMap - refreshing views - startedWalk is NOT completed, [stop button] is gone",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426180929379,
+    "Message": "Accuracy = 9.800000 is fine",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426180929496,
+    "Message": "Sending points for walk id: 54f64bc5eb66e103000004a9, request: ...2%3A40.807646%2C%22lng%22%3A-73.939531%2C%22acc%22%3A9.8%2C%22ts%22%3A1426180920%7D%5D&ts=1426180929 Accuracy: 9.800000",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426180937585,
+    "Message": "Data sent to server, walkId: 54f64bc5eb66e103000004a9",
+    "Severity": "Informational",
+    "Type": "ServerType"
+  },
+  {
+    "Date": 1426180981263,
+    "Message": "WalkMap - refreshing views - startedWalk is NOT completed, [stop button] is gone",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426181039681,
+    "Message": "WalkMap - refreshing views - startedWalk is NOT completed, [stop button] is gone",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426181109142,
+    "Message": "WalkMap - refreshing views - startedWalk is NOT completed, [stop button] is gone",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426181159620,
+    "Message": "WalkMap - refreshing views - startedWalk is NOT completed, [stop button] is gone",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426181313241,
+    "Message": "WalkMap - refreshing views - startedWalk is NOT completed, [stop button] is gone",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426181326371,
+    "Message": "Accuracy = 8.300000 is fine",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426181326426,
+    "Message": "Sending points for walk id: 54f64bc5eb66e103000004a9, request: ...22%3A40.80872%2C%22lng%22%3A-73.939601%2C%22acc%22%3A8.3%2C%22ts%22%3A1426181317%7D%5D&ts=1426181326 Accuracy: 8.300000",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426181326984,
+    "Message": "Data sent to server, walkId: 54f64bc5eb66e103000004a9",
+    "Severity": "Informational",
+    "Type": "ServerType"
+  },
+  {
+    "Date": 1426181330528,
+    "Message": "WalkMap - refreshing views - startedWalk is NOT completed, [stop button] is gone",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426181383436,
+    "Message": "WalkMap - refreshing views - startedWalk is NOT completed, [stop button] is gone",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426181400576,
+    "Message": "SwiftoApplication.walkComplete()",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426181400643,
+    "Message": "Walk reaches its end, walkId: 54f64bc5eb66e103000004a9",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426181405336,
+    "Message": "WalkMap - refreshing views - startedWalk is completed, [stop button] is visible",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426181406976,
+    "Message": "Stop collecting GPS updates, walkID: 54f64bc5eb66e103000004a9",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426181407180,
+    "Message": "Feed reminder didn't showed - no one dog should be fed after the walk",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426181407190,
+    "Message": "Medication reminder didn't showed - no one dog should receive medication",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426181417682,
+    "Message": "Sending message: Great+Walk",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426181420357,
+    "Message": "Send message success",
+    "Severity": "Informational",
+    "Type": "ServerType"
+  },
+  {
+    "Date": 1426181420385,
+    "Message": "stopCurrentWalk()",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426181421308,
+    "Message": "Walk has not completed",
+    "Severity": "Informational",
+    "Type": "ServerType"
+  },
+  {
+    "Date": 1426181422072,
+    "Message": "Stop collecting GPS updates, walkID: 54f64bc5eb66e103000004a9",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426181422077,
+    "Message": "Stop walk success, id: 54f64bc5eb66e103000004a9",
+    "Severity": "Informational",
+    "Type": "ServerType"
+  },
+  {
+    "Date": 1426181422449,
+    "Message": "Schedule created, selectedFragmentIndex: 3, memory: Memory: available 161 Mb, total: 1968 Mb, threshold: 64 Mb",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426181422464,
+    "Message": "Schedule resumed",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426194013575,
+    "Message": "Schedule created, selectedFragmentIndex: 3, memory: Memory: available 339 Mb, total: 1968 Mb, threshold: 64 Mb",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426194013673,
+    "Message": "Schedule resumed",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426194013675,
+    "Message": "Reloading walks beacuse last loading was 2 hours ago",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426194013676,
+    "Message": "Reload from Monthly",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426194014606,
+    "Message": "Loaded walks for month 3, 2015, response: {\"success\":true,\"walks\":[2,5,3,5,5,2,3,2,3,3,2,2,2,1,1,2,2,2,1,1,1,1,3,3,2,2,2,1,1,3,3],\"daysInMonth\":31,\"walksInMonth\":71}",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426194016798,
+    "Message": "Reload by pushing button. For position 3",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426194016799,
+    "Message": "Fragment Monthly is null",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426194016801,
+    "Message": "Reload from Monthly",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426194017264,
+    "Message": "Loaded walks for month 3, 2015, response: {\"success\":true,\"walks\":[2,5,3,5,5,2,3,2,3,3,2,2,2,1,1,2,2,2,1,1,1,1,3,3,2,2,2,1,1,3,3],\"daysInMonth\":31,\"walksInMonth\":71}",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426194019986,
+    "Message": "Loaded 2 walks for 13 Mar",
+    "Severity": "Informational",
+    "Type": "ServerType"
+  },
+  {
+    "Date": 1426194026964,
+    "Message": "Loaded 2 walks for 16 Mar",
+    "Severity": "Informational",
+    "Type": "ServerType"
+  },
+  {
+    "Date": 1426194030878,
+    "Message": "Loaded 3 walks for 23 Mar",
+    "Severity": "Informational",
+    "Type": "ServerType"
+  },
+  {
+    "Date": 1426194034607,
+    "Message": "Loaded 3 walks for 24 Mar",
+    "Severity": "Informational",
+    "Type": "ServerType"
+  },
+  {
+    "Date": 1426194037700,
+    "Message": "Loaded 2 walks for 25 Mar",
+    "Severity": "Informational",
+    "Type": "ServerType"
+  },
+  {
+    "Date": 1426194050707,
+    "Message": "Loaded walks for month 4, 2015, response: {\"success\":true,\"walks\":[4,3,3,1,1,4,4,4,3,3,1,1,4,4,4,3,3,1,1,4,4,4,3,3,1,1,4,4,4,3],\"daysInMonth\":30,\"walksInMonth\":87}",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426194053565,
+    "Message": "Loaded 4 walks for 06 Apr",
+    "Severity": "Informational",
+    "Type": "ServerType"
+  },
+  {
+    "Date": 1426194135540,
+    "Message": "Schedule resumed",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426194171358,
+    "Message": "Schedule resumed",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426194174797,
+    "Message": "Loaded 4 walks for 01 Apr",
+    "Severity": "Informational",
+    "Type": "ServerType"
+  },
+  {
+    "Date": 1426194179084,
+    "Message": "Loaded 3 walks for 02 Apr",
+    "Severity": "Informational",
+    "Type": "ServerType"
+  },
+  {
+    "Date": 1426194184106,
+    "Message": "Loaded 1 walks for 04 Apr",
+    "Severity": "Informational",
+    "Type": "ServerType"
+  },
+  {
+    "Date": 1426194215383,
+    "Message": "Schedule resumed",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426194218272,
+    "Message": "Schedule resumed",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426194224198,
+    "Message": "Opening E-mail client for sending log",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426194231221,
+    "Message": "Schedule resumed",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426195617105,
+    "Message": "Schedule resumed",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426195646743,
+    "Message": "Loaded 2 walks for 12 Mar",
+    "Severity": "Informational",
+    "Type": "ServerType"
+  },
+  {
+    "Date": 1426199600813,
+    "Message": "Schedule created, selectedFragmentIndex: 3, memory: Memory: available 481 Mb, total: 1968 Mb, threshold: 64 Mb",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426199600911,
+    "Message": "Schedule resumed",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426200709765,
+    "Message": "Schedule resumed",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426205692552,
+    "Message": "Schedule created, selectedFragmentIndex: 3, memory: Memory: available 411 Mb, total: 1968 Mb, threshold: 64 Mb",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426205692653,
+    "Message": "Schedule resumed",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426205692655,
+    "Message": "Reloading walks beacuse last loading was 2 hours ago",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426205692656,
+    "Message": "Reload from Monthly",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426205698475,
+    "Message": "Loaded walks for month 3, 2015, response: {\"success\":true,\"walks\":[2,5,3,5,5,2,3,2,3,3,2,2,3,1,1,2,2,2,1,1,1,1,3,3,2,2,2,1,1,3,3],\"daysInMonth\":31,\"walksInMonth\":72}",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426205700851,
+    "Message": "Loaded 3 walks for 13 Mar",
+    "Severity": "Informational",
+    "Type": "ServerType"
+  },
+  {
+    "Date": 1426205712848,
+    "Message": "Splash created - no walks in process",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426205713451,
+    "Message": "Logged from splash as trappstacey24@gmail.com",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426205713737,
+    "Message": "Received GPS Config: gpsSleepTime=20, maxAttemptsToFindPoints=20, threshold=30.000000",
+    "Severity": "Informational",
+    "Type": "ServerType"
+  },
+  {
+    "Date": 1426205714118,
+    "Message": "Loaded info about routes - there is no started walks",
+    "Severity": "Informational",
+    "Type": "ServerType"
+  },
+  {
+    "Date": 1426205714427,
+    "Message": "Schedule created, selectedFragmentIndex: 0, memory: Memory: available 425 Mb, total: 1968 Mb, threshold: 64 Mb",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426205714437,
+    "Message": "Schedule resumed",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426205714880,
+    "Message": "Loaded 2 walks for 12 Mar",
+    "Severity": "Informational",
+    "Type": "ServerType"
+  },
+  {
+    "Date": 1426205717445,
+    "Message": "Loaded 3 walks for 13 Mar",
+    "Severity": "Informational",
+    "Type": "ServerType"
+  },
+  {
+    "Date": 1426205722542,
+    "Message": "Loaded 3 walks for 09 Mar",
+    "Severity": "Informational",
+    "Type": "ServerType"
+  },
+  {
+    "Date": 1426205723010,
+    "Message": "Loaded 3 walks for 10 Mar",
+    "Severity": "Informational",
+    "Type": "ServerType"
+  },
+  {
+    "Date": 1426205723468,
+    "Message": "Loaded 2 walks for 11 Mar",
+    "Severity": "Informational",
+    "Type": "ServerType"
+  },
+  {
+    "Date": 1426205723741,
+    "Message": "Loaded walks for month 3, 2015, response: {\"success\":true,\"walks\":[2,5,3,5,5,2,3,2,3,3,2,2,3,1,1,2,2,2,1,1,1,1,3,3,2,2,2,1,1,3,3],\"daysInMonth\":31,\"walksInMonth\":72}",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426205724177,
+    "Message": "Loaded 1 walks for 14 Mar",
+    "Severity": "Informational",
+    "Type": "ServerType"
+  },
+  {
+    "Date": 1426205724530,
+    "Message": "Loaded 1 walks for 15 Mar",
+    "Severity": "Informational",
+    "Type": "ServerType"
+  },
+  {
+    "Date": 1426205733700,
+    "Message": "Loaded 2 walks for 16 Mar",
+    "Severity": "Informational",
+    "Type": "ServerType"
+  },
+  {
+    "Date": 1426205736765,
+    "Message": "Loaded 1 walks for 19 Mar",
+    "Severity": "Informational",
+    "Type": "ServerType"
+  },
+  {
+    "Date": 1426205738625,
+    "Message": "Loaded 1 walks for 20 Mar",
+    "Severity": "Informational",
+    "Type": "ServerType"
+  },
+  {
+    "Date": 1426205743663,
+    "Message": "Loaded 3 walks for 23 Mar",
+    "Severity": "Informational",
+    "Type": "ServerType"
+  },
+  {
+    "Date": 1426205748616,
+    "Message": "Reload by pushing button. For position 3",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426205748618,
+    "Message": "Reload from Monthly",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426205749282,
+    "Message": "Loaded walks for month 3, 2015, response: {\"success\":true,\"walks\":[2,5,3,5,5,2,3,2,3,3,2,2,3,1,1,2,2,2,1,1,1,1,3,3,2,2,2,1,1,3,3],\"daysInMonth\":31,\"walksInMonth\":72}",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426205750983,
+    "Message": "Loaded 3 walks for 13 Mar",
+    "Severity": "Informational",
+    "Type": "ServerType"
+  },
+  {
+    "Date": 1426205760778,
+    "Message": "Loaded 2 walks for 12 Mar",
+    "Severity": "Informational",
+    "Type": "ServerType"
+  },
+  {
+    "Date": 1426205830937,
+    "Message": "Schedule resumed",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426205833907,
+    "Message": "User logged out, gps config reset",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426205852118,
+    "Message": "User trappstacey24@gmail.com logged in",
+    "Severity": "Informational",
+    "Type": "ServerType"
+  },
+  {
+    "Date": 1426205852604,
+    "Message": "Received GPS Config: gpsSleepTime=20, maxAttemptsToFindPoints=20, threshold=30.000000",
+    "Severity": "Informational",
+    "Type": "ServerType"
+  },
+  {
+    "Date": 1426205852953,
+    "Message": "Loaded info about routes - there is no started walks",
+    "Severity": "Informational",
+    "Type": "ServerType"
+  },
+  {
+    "Date": 1426205853208,
+    "Message": "Schedule created, selectedFragmentIndex: 0, memory: Memory: available 319 Mb, total: 1968 Mb, threshold: 64 Mb",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426205853242,
+    "Message": "Schedule resumed",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426205853728,
+    "Message": "Loaded 2 walks for 12 Mar",
+    "Severity": "Informational",
+    "Type": "ServerType"
+  },
+  {
+    "Date": 1426205855497,
+    "Message": "Loaded 3 walks for 13 Mar",
+    "Severity": "Informational",
+    "Type": "ServerType"
+  },
+  {
+    "Date": 1426205857262,
+    "Message": "Loaded 3 walks for 09 Mar",
+    "Severity": "Informational",
+    "Type": "ServerType"
+  },
+  {
+    "Date": 1426205857647,
+    "Message": "Loaded 3 walks for 10 Mar",
+    "Severity": "Informational",
+    "Type": "ServerType"
+  },
+  {
+    "Date": 1426205858054,
+    "Message": "Loaded 2 walks for 11 Mar",
+    "Severity": "Informational",
+    "Type": "ServerType"
+  },
+  {
+    "Date": 1426205858458,
+    "Message": "Loaded 1 walks for 14 Mar",
+    "Severity": "Informational",
+    "Type": "ServerType"
+  },
+  {
+    "Date": 1426205858692,
+    "Message": "Loaded walks for month 3, 2015, response: {\"success\":true,\"walks\":[2,5,3,5,5,2,3,2,3,3,2,2,3,1,1,2,2,2,1,1,1,1,3,3,2,2,2,1,1,3,3],\"daysInMonth\":31,\"walksInMonth\":72}",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426205859087,
+    "Message": "Loaded 1 walks for 15 Mar",
+    "Severity": "Informational",
+    "Type": "ServerType"
+  },
+  {
+    "Date": 1426208390949,
+    "Message": "Schedule created, selectedFragmentIndex: 3, memory: Memory: available 554 Mb, total: 1968 Mb, threshold: 64 Mb",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426208391142,
+    "Message": "Schedule resumed",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426209075977,
+    "Message": "Schedule resumed",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426210996302,
+    "Message": "Schedule resumed",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426210998603,
+    "Message": "DogInfo resumed",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426211054498,
+    "Message": "DogInfo resumed",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426211056347,
+    "Message": "Checked walk time and current time, diff is -44.000000 seconds",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426211060999,
+    "Message": "Walk state: scheduled (on Dog Info)",
+    "Severity": "Informational",
+    "Type": "ServerType"
+  },
+  {
+    "Date": 1426211061536,
+    "Message": "Walk started (from Dog info after sending start_walk)",
+    "Severity": "Informational",
+    "Type": "ServerType"
+  },
+  {
+    "Date": 1426211061721,
+    "Message": "Starting current walk, id: 54fdeed393f07f0300000884",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426211061818,
+    "Message": "Start collecting GPS updates, walkId: 54fdeed393f07f0300000884, gps enabled: true",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426211061842,
+    "Message": "CurrTime: 1426211061841, will be completed in: 1799942, will be stopped in: 5399942",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426211062233,
+    "Message": "WalkMap - refreshing views - startedWalk is NOT completed, [stop button] is gone",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426211169990,
+    "Message": "WalkMap - refreshing views - startedWalk is NOT completed, [stop button] is gone",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426211332955,
+    "Message": "WalkMap - refreshing views - startedWalk is NOT completed, [stop button] is gone",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426211376272,
+    "Message": "WalkMap - refreshing views - startedWalk is NOT completed, [stop button] is gone",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426211424277,
+    "Message": "WalkMap - refreshing views - startedWalk is NOT completed, [stop button] is gone",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426211462790,
+    "Message": "WalkMap - refreshing views - startedWalk is NOT completed, [stop button] is gone",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426211506797,
+    "Message": "WalkMap - refreshing views - startedWalk is NOT completed, [stop button] is gone",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426211588124,
+    "Message": "WalkMap - refreshing views - startedWalk is NOT completed, [stop button] is gone",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426211607101,
+    "Message": "WalkMap - refreshing views - startedWalk is NOT completed, [stop button] is gone",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426211636238,
+    "Message": "WalkMap - refreshing views - startedWalk is NOT completed, [stop button] is gone",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426211653267,
+    "Message": "WalkMap - refreshing views - startedWalk is NOT completed, [stop button] is gone",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426211696641,
+    "Message": "WalkMap - refreshing views - startedWalk is NOT completed, [stop button] is gone",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426211726133,
+    "Message": "WalkMap - refreshing views - startedWalk is NOT completed, [stop button] is gone",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426211802858,
+    "Message": "WalkMap - refreshing views - startedWalk is NOT completed, [stop button] is gone",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426211844825,
+    "Message": "WalkMap - refreshing views - startedWalk is NOT completed, [stop button] is gone",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426211866068,
+    "Message": "WalkMap - refreshing views - startedWalk is NOT completed, [stop button] is gone",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426211887121,
+    "Message": "WalkMap - refreshing views - startedWalk is NOT completed, [stop button] is gone",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426211927523,
+    "Message": "WalkMap - refreshing views - startedWalk is NOT completed, [stop button] is gone",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426211950686,
+    "Message": "WalkMap - refreshing views - startedWalk is NOT completed, [stop button] is gone",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426212001098,
+    "Message": "Half walk reached, walk is in progress: beeping, vibrating",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426212008546,
+    "Message": "WalkMap - refreshing views - startedWalk is NOT completed, [stop button] is gone",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426212017255,
+    "Message": "WalkMap - refreshing views - startedWalk is NOT completed, [stop button] is gone",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426212078060,
+    "Message": "WalkMap - refreshing views - startedWalk is NOT completed, [stop button] is gone",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426212128093,
+    "Message": "WalkMap - refreshing views - startedWalk is NOT completed, [stop button] is gone",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426212190905,
+    "Message": "WalkMap - refreshing views - startedWalk is NOT completed, [stop button] is gone",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426212248258,
+    "Message": "WalkMap - refreshing views - startedWalk is NOT completed, [stop button] is gone",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426212297523,
+    "Message": "WalkMap - refreshing views - startedWalk is NOT completed, [stop button] is gone",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426212341525,
+    "Message": "WalkMap - refreshing views - startedWalk is NOT completed, [stop button] is gone",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426212496462,
+    "Message": "WalkMap - refreshing views - startedWalk is NOT completed, [stop button] is gone",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426212531563,
+    "Message": "WalkMap - refreshing views - startedWalk is NOT completed, [stop button] is gone",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426212621082,
+    "Message": "WalkMap - refreshing views - startedWalk is NOT completed, [stop button] is gone",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426212669596,
+    "Message": "WalkMap - refreshing views - startedWalk is NOT completed, [stop button] is gone",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426212714234,
+    "Message": "WalkMap - refreshing views - startedWalk is NOT completed, [stop button] is gone",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426212743603,
+    "Message": "WalkMap - refreshing views - startedWalk is NOT completed, [stop button] is gone",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426212751648,
+    "Message": "Accuracy = 8.200000 is fine",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426212751771,
+    "Message": "Sending points for walk id: 54fdeed393f07f0300000884, request: ...2%3A40.780058%2C%22lng%22%3A-73.955655%2C%22acc%22%3A8.2%2C%22ts%22%3A1426212742%7D%5D&ts=1426212751 Accuracy: 8.200000",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426212752256,
+    "Message": "Data sent to server, walkId: 54fdeed393f07f0300000884",
+    "Severity": "Informational",
+    "Type": "ServerType"
+  },
+  {
+    "Date": 1426212755419,
+    "Message": "WalkMap - refreshing views - startedWalk is NOT completed, [stop button] is gone",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426212808825,
+    "Message": "WalkMap - refreshing views - startedWalk is NOT completed, [stop button] is gone",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426212837436,
+    "Message": "WalkMap - refreshing views - startedWalk is NOT completed, [stop button] is gone",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426212855432,
+    "Message": "WalkMap - refreshing views - startedWalk is NOT completed, [stop button] is gone",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426212869277,
+    "Message": "WalkMap - refreshing views - startedWalk is NOT completed, [stop button] is gone",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426212900804,
+    "Message": "SwiftoApplication.walkComplete()",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426212900856,
+    "Message": "Walk reaches its end, walkId: 54fdeed393f07f0300000884",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426212904467,
+    "Message": "Stop collecting GPS updates, walkID: 54fdeed393f07f0300000884",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426212904477,
+    "Message": "Stop walk - photo not uploaded. Starting to upload photo",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426212904527,
+    "Message": "Feed reminder is showing with text: Don't forget to feed Stella.",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426212904672,
+    "Message": "Medication reminder didn't showed - no one dog should receive medication",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426212905656,
+    "Message": "Feed reminder dismissed",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426212907460,
+    "Message": "Stop collecting GPS updates, walkID: 54fdeed393f07f0300000884",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426212908498,
+    "Message": "Photo uploading skipped.",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426212908515,
+    "Message": "Stop collecting GPS updates, walkID: 54fdeed393f07f0300000884",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426212916251,
+    "Message": "Sending message: good+walk",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426212918188,
+    "Message": "Send message success",
+    "Severity": "Informational",
+    "Type": "ServerType"
+  },
+  {
+    "Date": 1426212918253,
+    "Message": "stopCurrentWalk()",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426212918908,
+    "Message": "Walk has not completed",
+    "Severity": "Informational",
+    "Type": "ServerType"
+  },
+  {
+    "Date": 1426212919585,
+    "Message": "Stop collecting GPS updates, walkID: 54fdeed393f07f0300000884",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426212919589,
+    "Message": "Stop walk success, id: 54fdeed393f07f0300000884",
+    "Severity": "Informational",
+    "Type": "ServerType"
+  },
+  {
+    "Date": 1426212919935,
+    "Message": "Schedule created, selectedFragmentIndex: 3, memory: Memory: available 231 Mb, total: 1968 Mb, threshold: 64 Mb",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426212919953,
+    "Message": "Schedule resumed",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426246193713,
+    "Message": "Splash created - no walks in process",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426246194603,
+    "Message": "Logged from splash as trappstacey24@gmail.com",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426246194907,
+    "Message": "Received GPS Config: gpsSleepTime=20, maxAttemptsToFindPoints=20, threshold=30.000000",
+    "Severity": "Informational",
+    "Type": "ServerType"
+  },
+  {
+    "Date": 1426246195136,
+    "Message": "Loaded info about routes - there is no started walks",
+    "Severity": "Informational",
+    "Type": "ServerType"
+  },
+  {
+    "Date": 1426246195610,
+    "Message": "Schedule created, selectedFragmentIndex: 0, memory: Memory: available 615 Mb, total: 1968 Mb, threshold: 64 Mb",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426246195625,
+    "Message": "Schedule resumed",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426246196205,
+    "Message": "Loaded 3 walks for 13 Mar",
+    "Severity": "Informational",
+    "Type": "ServerType"
+  },
+  {
+    "Date": 1426248021545,
+    "Message": "Schedule resumed",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426248023460,
+    "Message": "Loaded 1 walks for 14 Mar",
+    "Severity": "Informational",
+    "Type": "ServerType"
+  },
+  {
+    "Date": 1426248024567,
+    "Message": "Loaded 3 walks for 09 Mar",
+    "Severity": "Informational",
+    "Type": "ServerType"
+  },
+  {
+    "Date": 1426248025069,
+    "Message": "Loaded 3 walks for 10 Mar",
+    "Severity": "Informational",
+    "Type": "ServerType"
+  },
+  {
+    "Date": 1426248025454,
+    "Message": "Loaded 2 walks for 11 Mar",
+    "Severity": "Informational",
+    "Type": "ServerType"
+  },
+  {
+    "Date": 1426248025895,
+    "Message": "Loaded 2 walks for 12 Mar",
+    "Severity": "Informational",
+    "Type": "ServerType"
+  },
+  {
+    "Date": 1426248026095,
+    "Message": "Loaded walks for month 3, 2015, response: {\"success\":true,\"walks\":[2,5,3,5,5,2,3,2,3,3,2,2,3,1,1,2,2,2,1,1,1,1,3,3,2,2,2,1,1,3,3],\"daysInMonth\":31,\"walksInMonth\":72}",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426248026560,
+    "Message": "Loaded 1 walks for 15 Mar",
+    "Severity": "Informational",
+    "Type": "ServerType"
+  },
+  {
+    "Date": 1426248033996,
+    "Message": "Loaded walks for month 4, 2015, response: {\"success\":true,\"walks\":[4,3,3,1,1,4,4,4,3,3,1,1,4,4,4,3,3,1,1,4,4,4,3,3,1,1,4,4,4,3],\"daysInMonth\":30,\"walksInMonth\":87}",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426248036347,
+    "Message": "Loaded 4 walks for 01 Apr",
+    "Severity": "Informational",
+    "Type": "ServerType"
+  },
+  {
+    "Date": 1426248041617,
+    "Message": "Loaded 3 walks for 02 Apr",
+    "Severity": "Informational",
+    "Type": "ServerType"
+  },
+  {
+    "Date": 1426248046758,
+    "Message": "Loaded 4 walks for 06 Apr",
+    "Severity": "Informational",
+    "Type": "ServerType"
+  },
+  {
+    "Date": 1426248054335,
+    "Message": "Loaded walks for month 5, 2015, response: {\"success\":true,\"walks\":[3,1,1,4,4,4,3,3,1,1,4,4,4,3,3,1,1,4,4,4,3,3,1,1,4,4,4,3,3,1,1],\"daysInMonth\":31,\"walksInMonth\":85}",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426248058407,
+    "Message": "Loaded walks for month 6, 2015, response: {\"success\":true,\"walks\":[4,4,4,3,3,1,1,4,4,4,3,3,1,1,4,4,4,3,3,1,1,4,4,4,3,3,1,1,4,4],\"daysInMonth\":30,\"walksInMonth\":88}",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426248062738,
+    "Message": "Loaded 4 walks for 01 Jun",
+    "Severity": "Informational",
+    "Type": "ServerType"
+  },
+  {
+    "Date": 1426248067806,
+    "Message": "Loaded walks for month 7, 2015, response: {\"success\":true,\"walks\":[4,3,3,1,1,4,4,4,3,3,1,1,4,4,4,3,3,1,1,4,4,4,3,3,1,1,4,4,4,3,3],\"daysInMonth\":31,\"walksInMonth\":90}",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426248072836,
+    "Message": "Loaded walks for month 8, 2015, response: {\"success\":true,\"walks\":[1,1,4,4,4,3,3,1,1,3,3,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1],\"daysInMonth\":31,\"walksInMonth\":49}",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426248078368,
+    "Message": "Loaded 1 walks for 13 Aug",
+    "Severity": "Informational",
+    "Type": "ServerType"
+  },
+  {
+    "Date": 1426248081898,
+    "Message": "Loaded 1 walks for 14 Aug",
+    "Severity": "Informational",
+    "Type": "ServerType"
+  },
+  {
+    "Date": 1426248086035,
+    "Message": "Loaded walks for month 9, 2015, response: {\"success\":true,\"walks\":[1,1,1,1,1,1,1,1,1,1,1,0,0,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0],\"daysInMonth\":30,\"walksInMonth\":16}",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426248088837,
+    "Message": "Loaded 1 walks for 06 Sep",
+    "Severity": "Informational",
+    "Type": "ServerType"
+  },
+  {
+    "Date": 1426248093257,
+    "Message": "Loaded 1 walks for 18 Sep",
+    "Severity": "Informational",
+    "Type": "ServerType"
+  },
+  {
+    "Date": 1426248094787,
+    "Message": "Loaded 1 walks for 17 Sep",
+    "Severity": "Informational",
+    "Type": "ServerType"
+  },
+  {
+    "Date": 1426248097415,
+    "Message": "Loaded walks for month 10, 2015, response: {\"success\":true,\"walks\":[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],\"daysInMonth\":31,\"walksInMonth\":0}",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426248107146,
+    "Message": "Loaded walks for month 2, 2015, response: {\"success\":true,\"walks\":[1,3,1,4,1,2,1,2,5,5,6,4,4,2,0,0,2,1,0,0,0,0,2,1,2,1,2,0],\"daysInMonth\":28,\"walksInMonth\":52}",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426257434947,
+    "Message": "Schedule resumed",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426257434966,
+    "Message": "Reloading walks beacuse last loading was 2 hours ago",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426257434968,
+    "Message": "Reload from Monthly",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426257438888,
+    "Message": "Loaded walks for month 3, 2015, response: {\"success\":true,\"walks\":[2,5,3,5,5,2,3,2,3,3,2,2,3,1,1,2,2,2,1,1,1,1,3,3,2,2,2,1,1,3,3],\"daysInMonth\":31,\"walksInMonth\":72}",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426257643375,
+    "Message": "Schedule resumed",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426257707460,
+    "Message": "Schedule resumed",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426257709019,
+    "Message": "Reload by pushing button. For position 3",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426257709021,
+    "Message": "Reload from Monthly",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426257712314,
+    "Message": "Loaded walks for month 3, 2015, response: {\"success\":true,\"walks\":[2,5,3,5,5,2,3,2,3,3,2,2,4,1,1,2,2,2,1,1,1,1,3,3,2,2,2,1,1,3,3],\"daysInMonth\":31,\"walksInMonth\":73}",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426257714751,
+    "Message": "Loaded 4 walks for 13 Mar",
+    "Severity": "Informational",
+    "Type": "ServerType"
+  },
+  {
+    "Date": 1426257717585,
+    "Message": "DogInfo resumed",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426257749346,
+    "Message": "DogInfo resumed",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426257753062,
+    "Message": "Checked walk time and current time, diff is -1047.000000 seconds",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426257757927,
+    "Message": "Walk state: scheduled (on Dog Info)",
+    "Severity": "Informational",
+    "Type": "ServerType"
+  },
+  {
+    "Date": 1426257758308,
+    "Message": "Walk started (from Dog info after sending start_walk)",
+    "Severity": "Informational",
+    "Type": "ServerType"
+  },
+  {
+    "Date": 1426257758583,
+    "Message": "Starting current walk, id: 5502f7060732bd0300000d73",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426257758690,
+    "Message": "Start collecting GPS updates, walkId: 5502f7060732bd0300000d73, gps enabled: true",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426257758712,
+    "Message": "CurrTime: 1426257758712, will be completed in: 899948, will be stopped in: 4499948",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426257759783,
+    "Message": "WalkMap - refreshing views - startedWalk is NOT completed, [stop button] is gone",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426257794985,
+    "Message": "WalkMap - refreshing views - startedWalk is NOT completed, [stop button] is gone",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426257848117,
+    "Message": "WalkMap - refreshing views - startedWalk is NOT completed, [stop button] is gone",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426257891146,
+    "Message": "WalkMap - refreshing views - startedWalk is NOT completed, [stop button] is gone",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426257929573,
+    "Message": "WalkMap - refreshing views - startedWalk is NOT completed, [stop button] is gone",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426257960997,
+    "Message": "WalkMap - refreshing views - startedWalk is NOT completed, [stop button] is gone",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426257976845,
+    "Message": "WalkMap - refreshing views - startedWalk is NOT completed, [stop button] is gone",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426258013641,
+    "Message": "WalkMap - refreshing views - startedWalk is NOT completed, [stop button] is gone",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426258024682,
+    "Message": "WalkMap - refreshing views - startedWalk is NOT completed, [stop button] is gone",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426258062343,
+    "Message": "WalkMap - refreshing views - startedWalk is NOT completed, [stop button] is gone",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426258148882,
+    "Message": "WalkMap - refreshing views - startedWalk is NOT completed, [stop button] is gone",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426258200773,
+    "Message": "Half walk reached, walk is in progress: beeping, vibrating",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426258207058,
+    "Message": "WalkMap - refreshing views - startedWalk is NOT completed, [stop button] is gone",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426258260604,
+    "Message": "Accuracy = 9.500000 is fine",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426258260693,
+    "Message": "Sending points for walk id: 5502f7060732bd0300000d73, request: ...2%3A40.748169%2C%22lng%22%3A-73.984835%2C%22acc%22%3A9.5%2C%22ts%22%3A1426258250%7D%5D&ts=1426258260 Accuracy: 9.500000",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426258263272,
+    "Message": "Data sent to server, walkId: 5502f7060732bd0300000d73",
+    "Severity": "Informational",
+    "Type": "ServerType"
+  },
+  {
+    "Date": 1426258272463,
+    "Message": "WalkMap - refreshing views - startedWalk is NOT completed, [stop button] is gone",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426258316680,
+    "Message": "WalkMap - refreshing views - startedWalk is NOT completed, [stop button] is gone",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426258355643,
+    "Message": "WalkMap - refreshing views - startedWalk is NOT completed, [stop button] is gone",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426258366267,
+    "Message": "WalkMap - refreshing views - startedWalk is NOT completed, [stop button] is gone",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426258491362,
+    "Message": "WalkMap - refreshing views - startedWalk is NOT completed, [stop button] is gone",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426258500703,
+    "Message": "SwiftoApplication.walkComplete()",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426258500770,
+    "Message": "Walk reaches its end, walkId: 5502f7060732bd0300000d73",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426258533181,
+    "Message": "WalkMap - refreshing views - startedWalk is completed, [stop button] is visible",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426258539316,
+    "Message": "Stop collecting GPS updates, walkID: 5502f7060732bd0300000d73",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426258539359,
+    "Message": "Stop walk - photo not uploaded. Starting to upload photo",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426258539439,
+    "Message": "Feed reminder is showing with text: Don't forget to feed Swiffy.",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426258539516,
+    "Message": "Medication reminder didn't showed - no one dog should receive medication",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426258540471,
+    "Message": "Feed reminder dismissed",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426258542486,
+    "Message": "Stop collecting GPS updates, walkID: 5502f7060732bd0300000d73",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426258543525,
+    "Message": "Photo uploading skipped.",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426258543547,
+    "Message": "Stop collecting GPS updates, walkID: 5502f7060732bd0300000d73",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426258547857,
+    "Message": "Sending message: %3A%29",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426258549497,
+    "Message": "Send message success",
+    "Severity": "Informational",
+    "Type": "ServerType"
+  },
+  {
+    "Date": 1426258549531,
+    "Message": "stopCurrentWalk()",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426258550095,
+    "Message": "Walk has not completed",
+    "Severity": "Informational",
+    "Type": "ServerType"
+  },
+  {
+    "Date": 1426258550723,
+    "Message": "Stop collecting GPS updates, walkID: 5502f7060732bd0300000d73",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426258550731,
+    "Message": "Stop walk success, id: 5502f7060732bd0300000d73",
+    "Severity": "Informational",
+    "Type": "ServerType"
+  },
+  {
+    "Date": 1426258551222,
+    "Message": "Schedule created, selectedFragmentIndex: 3, memory: Memory: available 321 Mb, total: 1968 Mb, threshold: 64 Mb",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426258551233,
+    "Message": "Schedule resumed",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426258560383,
+    "Message": "Schedule resumed",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426258593560,
+    "Message": "Schedule resumed",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426258598344,
+    "Message": "Loaded 3 walks for 09 Mar",
+    "Severity": "Informational",
+    "Type": "ServerType"
+  },
+  {
+    "Date": 1426258598866,
+    "Message": "Loaded 3 walks for 10 Mar",
+    "Severity": "Informational",
+    "Type": "ServerType"
+  },
+  {
+    "Date": 1426258599856,
+    "Message": "Loaded 2 walks for 11 Mar",
+    "Severity": "Informational",
+    "Type": "ServerType"
+  },
+  {
+    "Date": 1426258601992,
+    "Message": "Loaded 2 walks for 12 Mar",
+    "Severity": "Informational",
+    "Type": "ServerType"
+  },
+  {
+    "Date": 1426258602469,
+    "Message": "Loaded 1 walks for 14 Mar",
+    "Severity": "Informational",
+    "Type": "ServerType"
+  },
+  {
+    "Date": 1426258602868,
+    "Message": "Loaded 1 walks for 15 Mar",
+    "Severity": "Informational",
+    "Type": "ServerType"
+  },
+  {
+    "Date": 1426258978653,
+    "Message": "Schedule resumed",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426258985589,
+    "Message": "Opening E-mail client for sending log",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426259047546,
+    "Message": "Schedule resumed",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426259156605,
+    "Message": "Schedule resumed",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426259961556,
+    "Message": "Schedule created, selectedFragmentIndex: 2, memory: Memory: available 1106 Mb, total: 1968 Mb, threshold: 64 Mb",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426259961753,
+    "Message": "Schedule resumed",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426259965110,
+    "Message": "Schedule resumed",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426261859283,
+    "Message": "Splash created - no walks in process",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426261863438,
+    "Message": "Logged from splash as trappstacey24@gmail.com",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426261863889,
+    "Message": "Received GPS Config: gpsSleepTime=20, maxAttemptsToFindPoints=20, threshold=30.000000",
+    "Severity": "Informational",
+    "Type": "ServerType"
+  },
+  {
+    "Date": 1426261864347,
+    "Message": "Loaded info about routes - there is no started walks",
+    "Severity": "Informational",
+    "Type": "ServerType"
+  },
+  {
+    "Date": 1426261864865,
+    "Message": "Schedule created, selectedFragmentIndex: 0, memory: Memory: available 957 Mb, total: 1968 Mb, threshold: 64 Mb",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426261864880,
+    "Message": "Schedule resumed",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426261865724,
+    "Message": "Loaded 4 walks for 13 Mar",
+    "Severity": "Informational",
+    "Type": "ServerType"
+  },
+  {
+    "Date": 1426261867157,
+    "Message": "DogInfo resumed",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426261899732,
+    "Message": "DogInfo resumed",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426261901414,
+    "Message": "Checked walk time and current time, diff is -499.000000 seconds",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426261905679,
+    "Message": "Walk state: scheduled (on Dog Info)",
+    "Severity": "Informational",
+    "Type": "ServerType"
+  },
+  {
+    "Date": 1426261906863,
+    "Message": "Walk started (from Dog info after sending start_walk)",
+    "Severity": "Informational",
+    "Type": "ServerType"
+  },
+  {
+    "Date": 1426261906919,
+    "Message": "Starting current walk, id: 5501fd2ab91fa80300000f10",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426261907035,
+    "Message": "Start collecting GPS updates, walkId: 5501fd2ab91fa80300000f10, gps enabled: true",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426261907060,
+    "Message": "CurrTime: 1426261907060, will be completed in: 1799919, will be stopped in: 5399919",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426261907393,
+    "Message": "WalkMap - refreshing views - startedWalk is NOT completed, [stop button] is gone",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426262104036,
+    "Message": "WalkMap - refreshing views - startedWalk is NOT completed, [stop button] is gone",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426262503893,
+    "Message": "WalkMap - refreshing views - startedWalk is NOT completed, [stop button] is gone",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426262516849,
+    "Message": "WalkMap - refreshing views - startedWalk is NOT completed, [stop button] is gone",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426262557699,
+    "Message": "Accuracy = 9.100000 is fine",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426262557766,
+    "Message": "Sending points for walk id: 5501fd2ab91fa80300000f10, request: ...2%3A40.792868%2C%22lng%22%3A-73.977533%2C%22acc%22%3A9.1%2C%22ts%22%3A1426262547%7D%5D&ts=1426262557 Accuracy: 9.100000",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426262564338,
+    "Message": "Data sent to server, walkId: 5501fd2ab91fa80300000f10",
+    "Severity": "Informational",
+    "Type": "ServerType"
+  },
+  {
+    "Date": 1426262700077,
+    "Message": "Half walk reached, walk is in progress: beeping, vibrating",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426262707411,
+    "Message": "WalkMap - refreshing views - startedWalk is NOT completed, [stop button] is gone",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426262717196,
+    "Message": "Accuracy = 11.800000 is fine",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426262717269,
+    "Message": "Sending points for walk id: 5501fd2ab91fa80300000f10, request: ...%3A40.793728%2C%22lng%22%3A-73.977521%2C%22acc%22%3A11.8%2C%22ts%22%3A1426262706%7D%5D&ts=1426262717 Accuracy: 11.800000",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426262718104,
+    "Message": "Data sent to server, walkId: 5501fd2ab91fa80300000f10",
+    "Severity": "Informational",
+    "Type": "ServerType"
+  },
+  {
+    "Date": 1426262718758,
+    "Message": "WalkMap - refreshing views - startedWalk is NOT completed, [stop button] is gone",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426262718778,
+    "Message": "showUploadPhotoConfirm",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426262719849,
+    "Message": "\"Yes\" pressed",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426262719859,
+    "Message": "compressImage, file is /storage/sdcard0/DCIM/Camera/1426262708408.jpg",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426262719861,
+    "Message": "uploadToAmazon, file is /storage/sdcard0/DCIM/Camera/1426262708408.jpg, memory: Memory: available 876 Mb, total: 1968 Mb, threshold: 64 Mb",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426262719868,
+    "Message": "Starting to compress",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426262720332,
+    "Message": "Photo compressed",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426262720732,
+    "Message": "Start putting object for app-snapshots/51129c017bcbd70200000af3/54ac36b41c2e38020000150e/1426262708408.jpg",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426262764849,
+    "Message": "Photo uplodaded to Amazon",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426262765541,
+    "Message": "Photo was uploaded. Response: {\"success\":true,\"path\":\"/app-snapshots/51129c017bcbd70200000af3/54ac36b41c2e38020000150e/1426262708408.jpg\"}",
+    "Severity": "Informational",
+    "Type": "ServerType"
+  },
+  {
+    "Date": 1426262849988,
+    "Message": "WalkMap - refreshing views - startedWalk is NOT completed, [stop button] is gone",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426262919139,
+    "Message": "WalkMap - refreshing views - startedWalk is NOT completed, [stop button] is gone",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426262920850,
+    "Message": "Sending add_poop: https://swifto-production-api.herokuapp.com/0.1/app/add_poop/asd/version=1.2.9&walkId=5501fd2ab91fa80300000f10&dogId=51129c017bcbd70200000af3&lat=40793728&lng=-73977521&ts=1426262920",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426262921750,
+    "Message": "Sending add_meet: https://swifto-production-api.herokuapp.com/0.1/app/add_meet/asd/version=1.2.9&walkId=5501fd2ab91fa80300000f10&dogId=51129c017bcbd70200000af3&lat=40793728&lng=-73977521&ts=1426262921",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426262922882,
+    "Message": "Meet or poo sent to server, walkId: 5501fd2ab91fa80300000f10",
+    "Severity": "Informational",
+    "Type": "ServerType"
+  },
+  {
+    "Date": 1426262923289,
+    "Message": "Meet or poo sent to server, walkId: 5501fd2ab91fa80300000f10",
+    "Severity": "Informational",
+    "Type": "ServerType"
+  },
+  {
+    "Date": 1426262948228,
+    "Message": "WalkMap - refreshing views - startedWalk is NOT completed, [stop button] is gone",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426262999099,
+    "Message": "WalkMap - refreshing views - startedWalk is NOT completed, [stop button] is gone",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426263014031,
+    "Message": "Accuracy = 6.000000 is fine",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426263014075,
+    "Message": "Sending points for walk id: 5501fd2ab91fa80300000f10, request: ...2%3A40.793328%2C%22lng%22%3A-73.977386%2C%22acc%22%3A6.0%2C%22ts%22%3A1426263003%7D%5D&ts=1426263014 Accuracy: 6.000000",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426263017990,
+    "Message": "Data sent to server, walkId: 5501fd2ab91fa80300000f10",
+    "Severity": "Informational",
+    "Type": "ServerType"
+  },
+  {
+    "Date": 1426263038688,
+    "Message": "WalkMap - refreshing views - startedWalk is NOT completed, [stop button] is gone",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426263122785,
+    "Message": "WalkMap - refreshing views - startedWalk is NOT completed, [stop button] is gone",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426263307101,
+    "Message": "WalkMap - refreshing views - startedWalk is NOT completed, [stop button] is gone",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426263313750,
+    "Message": "Accuracy = 8.500000 is fine",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426263313786,
+    "Message": "Sending points for walk id: 5501fd2ab91fa80300000f10, request: ...2%3A40.791561%2C%22lng%22%3A-73.976676%2C%22acc%22%3A8.5%2C%22ts%22%3A1426263303%7D%5D&ts=1426263313 Accuracy: 8.500000",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426263315073,
+    "Message": "Data sent to server, walkId: 5501fd2ab91fa80300000f10",
+    "Severity": "Informational",
+    "Type": "ServerType"
+  },
+  {
+    "Date": 1426263354543,
+    "Message": "WalkMap - refreshing views - startedWalk is NOT completed, [stop button] is gone",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426263374367,
+    "Message": "WalkMap - refreshing views - startedWalk is NOT completed, [stop button] is gone",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426263471537,
+    "Message": "WalkMap - refreshing views - startedWalk is NOT completed, [stop button] is gone",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426263490591,
+    "Message": "WalkMap - refreshing views - startedWalk is NOT completed, [stop button] is gone",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426263491518,
+    "Message": "DogInfo resumed",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426263494209,
+    "Message": "WalkMap - refreshing views - startedWalk is NOT completed, [stop button] is gone",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426263526539,
+    "Message": "WalkMap - refreshing views - startedWalk is NOT completed, [stop button] is gone",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426263566672,
+    "Message": "WalkMap - refreshing views - startedWalk is NOT completed, [stop button] is gone",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426263601200,
+    "Message": "SwiftoApplication.walkComplete()",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426263601223,
+    "Message": "Walk reaches its end, walkId: 5501fd2ab91fa80300000f10",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426263637036,
+    "Message": "WalkMap - refreshing views - startedWalk is completed, [stop button] is visible",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426263637961,
+    "Message": "Stop collecting GPS updates, walkID: 5501fd2ab91fa80300000f10",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426263638065,
+    "Message": "Feed reminder is showing with text: Don't forget to feed Sherman.",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426263638097,
+    "Message": "Medication reminder didn't showed - no one dog should receive medication",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426263639729,
+    "Message": "Feed reminder dismissed",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426263645007,
+    "Message": "Sending message: GREAT+WALK",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426263658554,
+    "Message": "Send message success",
+    "Severity": "Informational",
+    "Type": "ServerType"
+  },
+  {
+    "Date": 1426263703089,
+    "Message": "WalkMap - refreshing views - startedWalk is completed, [stop button] is visible",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426263704228,
+    "Message": "Stop collecting GPS updates, walkID: 5501fd2ab91fa80300000f10",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426263704276,
+    "Message": "stopCurrentWalk()",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426263704748,
+    "Message": "Walk has not completed",
+    "Severity": "Informational",
+    "Type": "ServerType"
+  },
+  {
+    "Date": 1426263705393,
+    "Message": "Stop collecting GPS updates, walkID: 5501fd2ab91fa80300000f10",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426263705400,
+    "Message": "Stop walk success, id: 5501fd2ab91fa80300000f10",
+    "Severity": "Informational",
+    "Type": "ServerType"
+  },
+  {
+    "Date": 1426263705774,
+    "Message": "Schedule created, selectedFragmentIndex: 0, memory: Memory: available 873 Mb, total: 1968 Mb, threshold: 64 Mb",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426263705789,
+    "Message": "Schedule resumed",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426265734246,
+    "Message": "Schedule resumed",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426265736330,
+    "Message": "DogInfo resumed",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426265738466,
+    "Message": "Checked walk time and current time, diff is -262.000000 seconds",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426265741915,
+    "Message": "Walk state: scheduled (on Dog Info)",
+    "Severity": "Informational",
+    "Type": "ServerType"
+  },
+  {
+    "Date": 1426265742487,
+    "Message": "Walk started (from Dog info after sending start_walk)",
+    "Severity": "Informational",
+    "Type": "ServerType"
+  },
+  {
+    "Date": 1426265742665,
+    "Message": "Starting current walk, id: 54f64bc5eb66e103000004ab",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426265742752,
+    "Message": "Start collecting GPS updates, walkId: 54f64bc5eb66e103000004ab, gps enabled: true",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426265742768,
+    "Message": "CurrTime: 1426265742768, will be completed in: 1799961, will be stopped in: 5399961",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426265742885,
+    "Message": "WalkMap - refreshing views - startedWalk is NOT completed, [stop button] is gone",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426265796599,
+    "Message": "WalkMap - refreshing views - startedWalk is NOT completed, [stop button] is gone",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426266056541,
+    "Message": "Accuracy = 8.800000 is fine",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426266056597,
+    "Message": "Sending points for walk id: 54f64bc5eb66e103000004ab, request: ...2%3A40.810096%2C%22lng%22%3A-73.937411%2C%22acc%22%3A8.8%2C%22ts%22%3A1426266046%7D%5D&ts=1426266056 Accuracy: 8.800000",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426266057823,
+    "Message": "Data sent to server, walkId: 54f64bc5eb66e103000004ab",
+    "Severity": "Informational",
+    "Type": "ServerType"
+  },
+  {
+    "Date": 1426266187136,
+    "Message": "WalkMap - refreshing views - startedWalk is NOT completed, [stop button] is gone",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426266196345,
+    "Message": "WalkMap - refreshing views - startedWalk is NOT completed, [stop button] is gone",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426266209701,
+    "Message": "WalkMap - refreshing views - startedWalk is NOT completed, [stop button] is gone",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426266220685,
+    "Message": "WalkMap - refreshing views - startedWalk is NOT completed, [stop button] is gone",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426266220687,
+    "Message": "showUploadPhotoConfirm",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426266222105,
+    "Message": "\"Yes\" pressed",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426266222129,
+    "Message": "compressImage, file is /storage/sdcard0/DCIM/Camera/1426266211191.jpg",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426266222133,
+    "Message": "uploadToAmazon, file is /storage/sdcard0/DCIM/Camera/1426266211191.jpg, memory: Memory: available 468 Mb, total: 1968 Mb, threshold: 64 Mb",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426266222137,
+    "Message": "Starting to compress",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426266222656,
+    "Message": "Photo compressed",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426266222662,
+    "Message": "Start putting object for app-snapshots/54b3e0aa3687fe02000000a5/54ac36b41c2e38020000150e/1426266211191.jpg",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426266280824,
+    "Message": "Photo uplodaded to Amazon",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426266281538,
+    "Message": "Photo was uploaded. Response: {\"success\":true,\"path\":\"/app-snapshots/54b3e0aa3687fe02000000a5/54ac36b41c2e38020000150e/1426266211191.jpg\"}",
+    "Severity": "Informational",
+    "Type": "ServerType"
+  },
+  {
+    "Date": 1426266321447,
+    "Message": "Accuracy = 7.800000 is fine",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426266321508,
+    "Message": "Sending points for walk id: 54f64bc5eb66e103000004ab, request: ...2%3A40.812301%2C%22lng%22%3A-73.936521%2C%22acc%22%3A7.8%2C%22ts%22%3A1426266310%7D%5D&ts=1426266321 Accuracy: 7.800000",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426266328329,
+    "Message": "Data sent to server, walkId: 54f64bc5eb66e103000004ab",
+    "Severity": "Informational",
+    "Type": "ServerType"
+  },
+  {
+    "Date": 1426266484138,
+    "Message": "WalkMap - refreshing views - startedWalk is NOT completed, [stop button] is gone",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426266491205,
+    "Message": "WalkMap - refreshing views - startedWalk is NOT completed, [stop button] is gone",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426266521734,
+    "Message": "WalkMap - refreshing views - startedWalk is NOT completed, [stop button] is gone",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426266614305,
+    "Message": "Accuracy = 8.500000 is fine",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426266614346,
+    "Message": "Sending points for walk id: 54f64bc5eb66e103000004ab, request: ...2%3A40.811381%2C%22lng%22%3A-73.938253%2C%22acc%22%3A8.5%2C%22ts%22%3A1426266604%7D%5D&ts=1426266614 Accuracy: 8.500000",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426266616289,
+    "Message": "Data sent to server, walkId: 54f64bc5eb66e103000004ab",
+    "Severity": "Informational",
+    "Type": "ServerType"
+  },
+  {
+    "Date": 1426266718789,
+    "Message": "WalkMap - refreshing views - startedWalk is NOT completed, [stop button] is gone",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426266723685,
+    "Message": "Sending add_poop: https://swifto-production-api.herokuapp.com/0.1/app/add_poop/asd/version=1.2.9&walkId=54f64bc5eb66e103000004ab&dogId=54b3e0aa3687fe02000000a5&lat=40811381&lng=-73938253&ts=1426266723",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426266724353,
+    "Message": "Meet or poo sent to server, walkId: 54f64bc5eb66e103000004ab",
+    "Severity": "Informational",
+    "Type": "ServerType"
+  },
+  {
+    "Date": 1426266735707,
+    "Message": "WalkMap - refreshing views - startedWalk is NOT completed, [stop button] is gone",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426266868158,
+    "Message": "WalkMap - refreshing views - startedWalk is NOT completed, [stop button] is gone",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426266877809,
+    "Message": "WalkMap - refreshing views - startedWalk is NOT completed, [stop button] is gone",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426266909004,
+    "Message": "Accuracy = 6.300000 is fine",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426266909046,
+    "Message": "Sending points for walk id: 54f64bc5eb66e103000004ab, request: ...2%3A40.809475%2C%22lng%22%3A-73.939828%2C%22acc%22%3A6.3%2C%22ts%22%3A1426266898%7D%5D&ts=1426266909 Accuracy: 6.300000",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426266911606,
+    "Message": "Data sent to server, walkId: 54f64bc5eb66e103000004ab",
+    "Severity": "Informational",
+    "Type": "ServerType"
+  },
+  {
+    "Date": 1426266970025,
+    "Message": "WalkMap - refreshing views - startedWalk is NOT completed, [stop button] is gone",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426267129677,
+    "Message": "WalkMap - refreshing views - startedWalk is NOT completed, [stop button] is gone",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426267308765,
+    "Message": "WalkMap - refreshing views - startedWalk is NOT completed, [stop button] is gone",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426267344966,
+    "Message": "WalkMap - refreshing views - startedWalk is NOT completed, [stop button] is gone",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426267350738,
+    "Message": "Accuracy = 9.100000 is fine",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426267350777,
+    "Message": "Sending points for walk id: 54f64bc5eb66e103000004ab, request: ...2%3A40.807768%2C%22lng%22%3A-73.939138%2C%22acc%22%3A9.1%2C%22ts%22%3A1426267340%7D%5D&ts=1426267350 Accuracy: 9.100000",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426267353196,
+    "Message": "Data sent to server, walkId: 54f64bc5eb66e103000004ab",
+    "Severity": "Informational",
+    "Type": "ServerType"
+  },
+  {
+    "Date": 1426267393637,
+    "Message": "WalkMap - refreshing views - startedWalk is NOT completed, [stop button] is gone",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426267463148,
+    "Message": "WalkMap - refreshing views - startedWalk is NOT completed, [stop button] is gone",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426267484633,
+    "Message": "WalkMap - refreshing views - startedWalk is NOT completed, [stop button] is gone",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426267499495,
+    "Message": "WalkMap - refreshing views - startedWalk is NOT completed, [stop button] is gone",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426267500762,
+    "Message": "SwiftoApplication.walkComplete()",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426267500788,
+    "Message": "Walk reaches its end, walkId: 54f64bc5eb66e103000004ab",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426267501969,
+    "Message": "Stop collecting GPS updates, walkID: 54f64bc5eb66e103000004ab",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426267502148,
+    "Message": "Feed reminder didn't showed - no one dog should be fed after the walk",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426267502153,
+    "Message": "Medication reminder didn't showed - no one dog should receive medication",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426267517165,
+    "Message": "Sending message: Wonderful+day+great+walk",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426267519415,
+    "Message": "Send message success",
+    "Severity": "Informational",
+    "Type": "ServerType"
+  },
+  {
+    "Date": 1426267519444,
+    "Message": "stopCurrentWalk()",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426267519899,
+    "Message": "Walk has not completed",
+    "Severity": "Informational",
+    "Type": "ServerType"
+  },
+  {
+    "Date": 1426267520403,
+    "Message": "Stop collecting GPS updates, walkID: 54f64bc5eb66e103000004ab",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426267520410,
+    "Message": "Stop walk success, id: 54f64bc5eb66e103000004ab",
+    "Severity": "Informational",
+    "Type": "ServerType"
+  },
+  {
+    "Date": 1426267520651,
+    "Message": "Schedule created, selectedFragmentIndex: 0, memory: Memory: available 534 Mb, total: 1968 Mb, threshold: 64 Mb",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426267520666,
+    "Message": "Schedule resumed",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426277681302,
+    "Message": "Reloading walks beacuse last loading was 2 hours ago",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426277681322,
+    "Message": "Reload from Today",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426277681582,
+    "Message": "Schedule resumed",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426277682296,
+    "Message": "Loaded 4 walks for 13 Mar",
+    "Severity": "Informational",
+    "Type": "ServerType"
+  },
+  {
+    "Date": 1426277684365,
+    "Message": "Loaded 2 walks for 14 Mar",
+    "Severity": "Informational",
+    "Type": "ServerType"
+  },
+  {
+    "Date": 1426277685658,
+    "Message": "Loaded 3 walks for 09 Mar",
+    "Severity": "Informational",
+    "Type": "ServerType"
+  },
+  {
+    "Date": 1426277686263,
+    "Message": "Loaded 3 walks for 10 Mar",
+    "Severity": "Informational",
+    "Type": "ServerType"
+  },
+  {
+    "Date": 1426277686837,
+    "Message": "Loaded 2 walks for 11 Mar",
+    "Severity": "Informational",
+    "Type": "ServerType"
+  },
+  {
+    "Date": 1426277687620,
+    "Message": "Loaded 2 walks for 12 Mar",
+    "Severity": "Informational",
+    "Type": "ServerType"
+  },
+  {
+    "Date": 1426277688314,
+    "Message": "Loaded 2 walks for 15 Mar",
+    "Severity": "Informational",
+    "Type": "ServerType"
+  },
+  {
+    "Date": 1426277694398,
+    "Message": "Loaded walks for month 3, 2015, response: {\"success\":true,\"walks\":[2,5,3,5,5,2,3,2,3,3,2,2,4,2,2,2,2,2,1,1,1,1,3,3,2,2,2,1,1,3,3],\"daysInMonth\":31,\"walksInMonth\":75}",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426277696213,
+    "Message": "Reload by pushing button. For position 3",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426277696216,
+    "Message": "Reload from Monthly",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426277697807,
+    "Message": "Loaded walks for month 3, 2015, response: {\"success\":true,\"walks\":[2,5,3,5,5,2,3,2,3,3,2,2,4,2,2,2,2,2,1,1,1,1,3,3,2,2,2,1,1,3,3],\"daysInMonth\":31,\"walksInMonth\":75}",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426277701751,
+    "Message": "Loaded 2 walks for 14 Mar",
+    "Severity": "Informational",
+    "Type": "ServerType"
+  },
+  {
+    "Date": 1426277705581,
+    "Message": "Loaded 2 walks for 15 Mar",
+    "Severity": "Informational",
+    "Type": "ServerType"
+  },
+  {
+    "Date": 1426277708862,
+    "Message": "Loaded 2 walks for 16 Mar",
+    "Severity": "Informational",
+    "Type": "ServerType"
+  },
+  {
+    "Date": 1426277838691,
+    "Message": "Schedule resumed",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426277845355,
+    "Message": "Loaded walks for month 4, 2015, response: {\"success\":true,\"walks\":[5,3,3,1,1,4,5,5,3,3,1,1,4,5,5,3,3,1,1,4,5,5,3,3,1,1,4,5,5,3],\"daysInMonth\":30,\"walksInMonth\":96}",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426277848307,
+    "Message": "Loaded 5 walks for 01 Apr",
+    "Severity": "Informational",
+    "Type": "ServerType"
+  },
+  {
+    "Date": 1426279632556,
+    "Message": "Schedule created, selectedFragmentIndex: 3, memory: Memory: available 863 Mb, total: 1968 Mb, threshold: 64 Mb",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426279632648,
+    "Message": "Schedule resumed",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426279635126,
+    "Message": "Loaded 4 walks for 13 Mar",
+    "Severity": "Informational",
+    "Type": "ServerType"
+  },
+  {
+    "Date": 1426279642579,
+    "Message": "Loaded 1 walks for 20 Mar",
+    "Severity": "Informational",
+    "Type": "ServerType"
+  },
+  {
+    "Date": 1426279648080,
+    "Message": "Loaded 3 walks for 23 Mar",
+    "Severity": "Informational",
+    "Type": "ServerType"
+  },
+  {
+    "Date": 1426279661458,
+    "Message": "Loaded 3 walks for 02 Apr",
+    "Severity": "Informational",
+    "Type": "ServerType"
+  },
+  {
+    "Date": 1426279667348,
+    "Message": "Loaded 3 walks for 10 Apr",
+    "Severity": "Informational",
+    "Type": "ServerType"
+  },
+  {
+    "Date": 1426279669143,
+    "Message": "Loaded 5 walks for 07 Apr",
+    "Severity": "Informational",
+    "Type": "ServerType"
+  },
+  {
+    "Date": 1426279682482,
+    "Message": "Loaded 1 walks for 21 Mar",
+    "Severity": "Informational",
+    "Type": "ServerType"
+  },
+  {
+    "Date": 1426280671511,
+    "Message": "Schedule resumed",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426280674731,
+    "Message": "Opening E-mail client for sending log",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426280711797,
+    "Message": "Schedule resumed",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426288091437,
+    "Message": "Schedule created, selectedFragmentIndex: 3, memory: Memory: available 293 Mb, total: 1968 Mb, threshold: 64 Mb",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426288091539,
+    "Message": "Schedule resumed",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426288091540,
+    "Message": "Reloading walks beacuse last loading was 2 hours ago",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426288091541,
+    "Message": "Reload from Monthly",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426288092457,
+    "Message": "Loaded walks for month 3, 2015, response: {\"success\":true,\"walks\":[2,5,3,5,5,2,3,2,3,3,2,2,4,2,2,2,2,2,1,1,1,1,3,3,2,2,2,1,1,3,3],\"daysInMonth\":31,\"walksInMonth\":75}",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426288094625,
+    "Message": "Loaded 2 walks for 14 Mar",
+    "Severity": "Informational",
+    "Type": "ServerType"
+  },
+  {
+    "Date": 1426291138374,
+    "Message": "Schedule created, selectedFragmentIndex: 3, memory: Memory: available 529 Mb, total: 1968 Mb, threshold: 64 Mb",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426291138464,
+    "Message": "Schedule resumed",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426291141316,
+    "Message": "Loaded 4 walks for 13 Mar",
+    "Severity": "Informational",
+    "Type": "ServerType"
+  },
+  {
+    "Date": 1426291147069,
+    "Message": "Loaded 2 walks for 15 Mar",
+    "Severity": "Informational",
+    "Type": "ServerType"
+  },
+  {
+    "Date": 1426291149354,
+    "Message": "Loaded 2 walks for 16 Mar",
+    "Severity": "Informational",
+    "Type": "ServerType"
+  },
+  {
+    "Date": 1426294951255,
+    "Message": "Schedule created, selectedFragmentIndex: 3, memory: Memory: available 648 Mb, total: 1968 Mb, threshold: 64 Mb",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426294951404,
+    "Message": "Schedule resumed",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426294955030,
+    "Message": "DogInfo resumed",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426294957169,
+    "Message": "Checked walk time and current time, diff is 157.000000 seconds",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426294958726,
+    "Message": "Walk state: scheduled (on Dog Info)",
+    "Severity": "Informational",
+    "Type": "ServerType"
+  },
+  {
+    "Date": 1426294959328,
+    "Message": "Walk started (from Dog info after sending start_walk)",
+    "Severity": "Informational",
+    "Type": "ServerType"
+  },
+  {
+    "Date": 1426294959387,
+    "Message": "Starting current walk, id: 55020fccb91fa8030000160d",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426294959557,
+    "Message": "Start collecting GPS updates, walkId: 55020fccb91fa8030000160d, gps enabled: true",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426294959587,
+    "Message": "CurrTime: 1426294959586, will be completed in: 2699925, will be stopped in: 6299925",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426294959979,
+    "Message": "WalkMap - refreshing views - startedWalk is NOT completed, [stop button] is gone",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426295023957,
+    "Message": "WalkMap - refreshing views - startedWalk is NOT completed, [stop button] is gone",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426295031498,
+    "Message": "WalkMap - refreshing views - startedWalk is NOT completed, [stop button] is gone",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426295082765,
+    "Message": "WalkMap - refreshing views - startedWalk is NOT completed, [stop button] is gone",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426295117848,
+    "Message": "WalkMap - refreshing views - startedWalk is NOT completed, [stop button] is gone",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426295294775,
+    "Message": "WalkMap - refreshing views - startedWalk is NOT completed, [stop button] is gone",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426295512207,
+    "Message": "WalkMap - refreshing views - startedWalk is NOT completed, [stop button] is gone",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426295515396,
+    "Message": "WalkMap - refreshing views - startedWalk is NOT completed, [stop button] is gone",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426295759732,
+    "Message": "WalkMap - refreshing views - startedWalk is NOT completed, [stop button] is gone",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426295875243,
+    "Message": "WalkMap - refreshing views - startedWalk is NOT completed, [stop button] is gone",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426295993419,
+    "Message": "WalkMap - refreshing views - startedWalk is NOT completed, [stop button] is gone",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426296285520,
+    "Message": "WalkMap - refreshing views - startedWalk is NOT completed, [stop button] is gone",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426296300567,
+    "Message": "Half walk reached, walk is in progress: beeping, vibrating",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426296303650,
+    "Message": "WalkMap - refreshing views - startedWalk is NOT completed, [stop button] is gone",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426296663826,
+    "Message": "WalkMap - refreshing views - startedWalk is NOT completed, [stop button] is gone",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426296676564,
+    "Message": "WalkMap - refreshing views - startedWalk is NOT completed, [stop button] is gone",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426296854287,
+    "Message": "WalkMap - refreshing views - startedWalk is NOT completed, [stop button] is gone",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426296865332,
+    "Message": "DogInfo resumed",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426296866950,
+    "Message": "Schedule created, selectedFragmentIndex: 3, memory: Memory: available 544 Mb, total: 1968 Mb, threshold: 64 Mb",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426296866959,
+    "Message": "Schedule resumed",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426296870421,
+    "Message": "Opening E-mail client for sending log",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426296899502,
+    "Message": "Schedule resumed",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426296902837,
+    "Message": "DogInfo resumed",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426296904819,
+    "Message": "WalkMap - refreshing views - startedWalk is NOT completed, [stop button] is gone",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426297287051,
+    "Message": "WalkMap - refreshing views - startedWalk is NOT completed, [stop button] is gone",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426297357993,
+    "Message": "WalkMap - refreshing views - startedWalk is NOT completed, [stop button] is gone",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426297405007,
+    "Message": "WalkMap - refreshing views - startedWalk is NOT completed, [stop button] is gone",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426297437503,
+    "Message": "WalkMap - refreshing views - startedWalk is NOT completed, [stop button] is gone",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426297459665,
+    "Message": "WalkMap - refreshing views - startedWalk is NOT completed, [stop button] is gone",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426297500547,
+    "Message": "SwiftoApplication.walkComplete()",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426297500583,
+    "Message": "Walk reaches its end, walkId: 55020fccb91fa8030000160d",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426297512781,
+    "Message": "WalkMap - refreshing views - startedWalk is completed, [stop button] is visible",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426297517088,
+    "Message": "Stop collecting GPS updates, walkID: 55020fccb91fa8030000160d",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426297517113,
+    "Message": "Stop walk - photo not uploaded. Starting to upload photo",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426297517213,
+    "Message": "Feed reminder is showing with text: Don't forget to feed Stella.",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426297517427,
+    "Message": "Medication reminder didn't showed - no one dog should receive medication",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426297518399,
+    "Message": "Feed reminder dismissed",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426297520549,
+    "Message": "Stop collecting GPS updates, walkID: 55020fccb91fa8030000160d",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426297522028,
+    "Message": "Photo uploading skipped.",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426297522053,
+    "Message": "Stop collecting GPS updates, walkID: 55020fccb91fa8030000160d",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426297527257,
+    "Message": "Sending message: great+walk",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426297594587,
+    "Message": "Send message success",
+    "Severity": "Informational",
+    "Type": "ServerType"
+  },
+  {
+    "Date": 1426297684366,
+    "Message": "WalkMap - refreshing views - startedWalk is completed, [stop button] is visible",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426297685768,
+    "Message": "Stop collecting GPS updates, walkID: 55020fccb91fa8030000160d",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426297685806,
+    "Message": "stopCurrentWalk()",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426297721781,
+    "Message": "Walk has not completed",
+    "Severity": "Informational",
+    "Type": "ServerType"
+  },
+  {
+    "Date": 1426297722344,
+    "Message": "Stop collecting GPS updates, walkID: 55020fccb91fa8030000160d",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426297722348,
+    "Message": "Stop walk success, id: 55020fccb91fa8030000160d",
+    "Severity": "Informational",
+    "Type": "ServerType"
+  },
+  {
+    "Date": 1426297722747,
+    "Message": "Schedule created, selectedFragmentIndex: 3, memory: Memory: available 823 Mb, total: 1968 Mb, threshold: 64 Mb",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426297722762,
+    "Message": "Schedule resumed",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426334264665,
+    "Message": "Schedule created, selectedFragmentIndex: 3, memory: Memory: available 522 Mb, total: 1968 Mb, threshold: 64 Mb",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426334264761,
+    "Message": "Schedule resumed",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426334264762,
+    "Message": "Reloading walks beacuse last loading was 2 hours ago",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426334264763,
+    "Message": "Reload from Monthly",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426334265786,
+    "Message": "Loaded walks for month 3, 2015, response: {\"success\":true,\"walks\":[2,5,3,5,5,2,3,2,3,3,2,2,4,2,2,2,2,2,1,1,1,1,3,3,2,2,2,1,1,3,3],\"daysInMonth\":31,\"walksInMonth\":75}",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426367612793,
+    "Message": "Schedule created, selectedFragmentIndex: 3, memory: Memory: available 781 Mb, total: 1968 Mb, threshold: 64 Mb",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426367612928,
+    "Message": "Schedule resumed",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426367612929,
+    "Message": "Reloading walks beacuse last loading was 2 hours ago",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426367612930,
+    "Message": "Reload from Monthly",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426367613725,
+    "Message": "Loaded walks for month 3, 2015, response: {\"success\":true,\"walks\":[2,5,3,5,5,2,3,2,3,3,2,2,4,2,2,2,2,2,1,1,1,1,3,3,2,2,2,1,1,3,3],\"daysInMonth\":31,\"walksInMonth\":75}",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426367615689,
+    "Message": "Loaded 2 walks for 14 Mar",
+    "Severity": "Informational",
+    "Type": "ServerType"
+  },
+  {
+    "Date": 1426367622112,
+    "Message": "Loaded 2 walks for 16 Mar",
+    "Severity": "Informational",
+    "Type": "ServerType"
+  },
+  {
+    "Date": 1426367626213,
+    "Message": "Loaded 3 walks for 23 Mar",
+    "Severity": "Informational",
+    "Type": "ServerType"
+  },
+  {
+    "Date": 1426379709696,
+    "Message": "Splash created - no walks in process",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426379736910,
+    "Message": "Logged from splash as trappstacey24@gmail.com",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426379738147,
+    "Message": "Received GPS Config: gpsSleepTime=20, maxAttemptsToFindPoints=20, threshold=30.000000",
+    "Severity": "Informational",
+    "Type": "ServerType"
+  },
+  {
+    "Date": 1426379740821,
+    "Message": "Splash created - no walks in process",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426379745632,
+    "Message": "Parsing routes after Splash activity had finished. Silently returning...",
+    "Severity": "Error",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426379746533,
+    "Message": "Logged from splash as trappstacey24@gmail.com",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426379747139,
+    "Message": "Received GPS Config: gpsSleepTime=20, maxAttemptsToFindPoints=20, threshold=30.000000",
+    "Severity": "Informational",
+    "Type": "ServerType"
+  },
+  {
+    "Date": 1426379747540,
+    "Message": "Loaded info about routes - there is no started walks",
+    "Severity": "Informational",
+    "Type": "ServerType"
+  },
+  {
+    "Date": 1426379748039,
+    "Message": "Schedule created, selectedFragmentIndex: 0, memory: Memory: available 246 Mb, total: 1968 Mb, threshold: 64 Mb",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426379748054,
+    "Message": "Schedule resumed",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426379748769,
+    "Message": "Loaded 2 walks for 14 Mar",
+    "Severity": "Informational",
+    "Type": "ServerType"
+  },
+  {
+    "Date": 1426379754121,
+    "Message": "Loaded 2 walks for 15 Mar",
+    "Severity": "Informational",
+    "Type": "ServerType"
+  },
+  {
+    "Date": 1426379755778,
+    "Message": "Loaded 3 walks for 09 Mar",
+    "Severity": "Informational",
+    "Type": "ServerType"
+  },
+  {
+    "Date": 1426379756502,
+    "Message": "Loaded 3 walks for 10 Mar",
+    "Severity": "Informational",
+    "Type": "ServerType"
+  },
+  {
+    "Date": 1426379757107,
+    "Message": "Loaded 2 walks for 11 Mar",
+    "Severity": "Informational",
+    "Type": "ServerType"
+  },
+  {
+    "Date": 1426379757724,
+    "Message": "Loaded 2 walks for 12 Mar",
+    "Severity": "Informational",
+    "Type": "ServerType"
+  },
+  {
+    "Date": 1426379758289,
+    "Message": "Loaded walks for month 3, 2015, response: {\"success\":true,\"walks\":[2,5,3,5,5,2,3,2,3,3,2,2,4,2,2,2,2,2,1,1,1,1,3,3,2,2,2,1,1,3,3],\"daysInMonth\":31,\"walksInMonth\":75}",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426379758872,
+    "Message": "Loaded 4 walks for 13 Mar",
+    "Severity": "Informational",
+    "Type": "ServerType"
+  },
+  {
+    "Date": 1426381281856,
+    "Message": "Schedule created, selectedFragmentIndex: 3, memory: Memory: available 879 Mb, total: 1968 Mb, threshold: 64 Mb",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426381282043,
+    "Message": "Schedule resumed",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426381286797,
+    "Message": "DogInfo resumed",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426381287714,
+    "Message": "Checked walk time and current time, diff is 87.000000 seconds",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426381290363,
+    "Message": "Walk state: scheduled (on Dog Info)",
+    "Severity": "Informational",
+    "Type": "ServerType"
+  },
+  {
+    "Date": 1426381290934,
+    "Message": "Walk started (from Dog info after sending start_walk)",
+    "Severity": "Informational",
+    "Type": "ServerType"
+  },
+  {
+    "Date": 1426381291179,
+    "Message": "Starting current walk, id: 550336d00732bd03000013e0",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426381291279,
+    "Message": "Start collecting GPS updates, walkId: 550336d00732bd03000013e0, gps enabled: true",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426381291315,
+    "Message": "CurrTime: 1426381291315, will be completed in: 2699936, will be stopped in: 6299936",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426381291649,
+    "Message": "WalkMap - refreshing views - startedWalk is NOT completed, [stop button] is gone",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426381395023,
+    "Message": "WalkMap - refreshing views - startedWalk is NOT completed, [stop button] is gone",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426381584448,
+    "Message": "WalkMap - refreshing views - startedWalk is NOT completed, [stop button] is gone",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426381658644,
+    "Message": "WalkMap - refreshing views - startedWalk is NOT completed, [stop button] is gone",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426381811307,
+    "Message": "WalkMap - refreshing views - startedWalk is NOT completed, [stop button] is gone",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426381947011,
+    "Message": "WalkMap - refreshing views - startedWalk is NOT completed, [stop button] is gone",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426382150908,
+    "Message": "WalkMap - refreshing views - startedWalk is NOT completed, [stop button] is gone",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426382503786,
+    "Message": "WalkMap - refreshing views - startedWalk is NOT completed, [stop button] is gone",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426382510909,
+    "Message": "Schedule created, selectedFragmentIndex: 3, memory: Memory: available 594 Mb, total: 1968 Mb, threshold: 64 Mb",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426382510919,
+    "Message": "Schedule resumed",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426382514923,
+    "Message": "Opening E-mail client for sending log",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426382555320,
+    "Message": "Schedule resumed",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426382700353,
+    "Message": "Half walk reached, walk is in progress: beeping, vibrating",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426382735479,
+    "Message": "Schedule resumed",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426382739963,
+    "Message": "Loaded walks for month 4, 2015, response: {\"success\":true,\"walks\":[5,3,3,1,1,4,5,5,3,3,1,1,4,5,5,3,3,1,1,4,5,5,3,3,1,1,4,5,5,3],\"daysInMonth\":30,\"walksInMonth\":96}",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426382746101,
+    "Message": "DogInfo resumed",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426382748021,
+    "Message": "WalkMap - refreshing views - startedWalk is NOT completed, [stop button] is gone",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426382943988,
+    "Message": "WalkMap - refreshing views - startedWalk is NOT completed, [stop button] is gone",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426383103615,
+    "Message": "WalkMap - refreshing views - startedWalk is NOT completed, [stop button] is gone",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426383237124,
+    "Message": "WalkMap - refreshing views - startedWalk is NOT completed, [stop button] is gone",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426383589124,
+    "Message": "WalkMap - refreshing views - startedWalk is NOT completed, [stop button] is gone",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426383718706,
+    "Message": "WalkMap - refreshing views - startedWalk is NOT completed, [stop button] is gone",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426383900271,
+    "Message": "SwiftoApplication.walkComplete()",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426383900289,
+    "Message": "Walk reaches its end, walkId: 550336d00732bd03000013e0",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426384014989,
+    "Message": "WalkMap - refreshing views - startedWalk is completed, [stop button] is visible",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426384017883,
+    "Message": "Stop collecting GPS updates, walkID: 550336d00732bd03000013e0",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426384017905,
+    "Message": "Stop walk - photo not uploaded. Starting to upload photo",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426384017970,
+    "Message": "Feed reminder is showing with text: Don't forget to feed Stella.",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426384018031,
+    "Message": "Medication reminder didn't showed - no one dog should receive medication",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426384019075,
+    "Message": "Feed reminder dismissed",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426384030315,
+    "Message": "WalkMap - refreshing views - startedWalk is completed, [stop button] is visible",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426384031781,
+    "Message": "Stop collecting GPS updates, walkID: 550336d00732bd03000013e0",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426384037918,
+    "Message": "WalkMap - refreshing views - startedWalk is completed, [stop button] is visible",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426384037932,
+    "Message": "showUploadPhotoConfirm",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426384038899,
+    "Message": "\"Yes\" pressed",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426384038919,
+    "Message": "compressImage, file is /storage/sdcard0/DCIM/Camera/1426384033314.jpg",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426384038924,
+    "Message": "uploadToAmazon, file is /storage/sdcard0/DCIM/Camera/1426384033314.jpg, memory: Memory: available 459 Mb, total: 1968 Mb, threshold: 64 Mb",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426384038966,
+    "Message": "Starting to compress",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426384039485,
+    "Message": "Photo compressed",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426384039913,
+    "Message": "Start putting object for app-snapshots/54a60d639f85260200000994/54ac36b41c2e38020000150e/1426384033314.jpg",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426384043991,
+    "Message": "Photo uplodaded to Amazon",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426384044408,
+    "Message": "Photo was uploaded. Response: {\"success\":true,\"path\":\"/app-snapshots/54a60d639f85260200000994/54ac36b41c2e38020000150e/1426384033314.jpg\"}",
+    "Severity": "Informational",
+    "Type": "ServerType"
+  },
+  {
+    "Date": 1426384044442,
+    "Message": "Stop collecting GPS updates, walkID: 550336d00732bd03000013e0",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426384051537,
+    "Message": "Sending message: great+walk",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426384053350,
+    "Message": "Send message success",
+    "Severity": "Informational",
+    "Type": "ServerType"
+  },
+  {
+    "Date": 1426384053376,
+    "Message": "stopCurrentWalk()",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426384053749,
+    "Message": "Walk has not completed",
+    "Severity": "Informational",
+    "Type": "ServerType"
+  },
+  {
+    "Date": 1426384054245,
+    "Message": "Stop collecting GPS updates, walkID: 550336d00732bd03000013e0",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426384054250,
+    "Message": "Stop walk success, id: 550336d00732bd03000013e0",
+    "Severity": "Informational",
+    "Type": "ServerType"
+  },
+  {
+    "Date": 1426384054481,
+    "Message": "Schedule created, selectedFragmentIndex: 3, memory: Memory: available 447 Mb, total: 1968 Mb, threshold: 64 Mb",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426384054490,
+    "Message": "Schedule resumed",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426384781993,
+    "Message": "Schedule resumed",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426384932109,
+    "Message": "Schedule resumed",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426384934929,
+    "Message": "DogInfo resumed",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426384935791,
+    "Message": "Checked walk time and current time, diff is 1935.000000 seconds",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426384939929,
+    "Message": "Walk state: scheduled (on Dog Info)",
+    "Severity": "Informational",
+    "Type": "ServerType"
+  },
+  {
+    "Date": 1426384944649,
+    "Message": "Walk started (from Dog info after sending start_walk)",
+    "Severity": "Informational",
+    "Type": "ServerType"
+  },
+  {
+    "Date": 1426384944727,
+    "Message": "Starting current walk, id: 54f9f1955fcd570300000f69",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426384944816,
+    "Message": "Start collecting GPS updates, walkId: 54f9f1955fcd570300000f69, gps enabled: true",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426384944851,
+    "Message": "CurrTime: 1426384944851, will be completed in: 1799938, will be stopped in: 5399938",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426384945037,
+    "Message": "WalkMap - refreshing views - startedWalk is NOT completed, [stop button] is gone",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426385088073,
+    "Message": "WalkMap - refreshing views - startedWalk is NOT completed, [stop button] is gone",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426385694262,
+    "Message": "WalkMap - refreshing views - startedWalk is NOT completed, [stop button] is gone",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426385701503,
+    "Message": "Half walk reached, walk is in progress: beeping, vibrating",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426385734076,
+    "Message": "WalkMap - refreshing views - startedWalk is NOT completed, [stop button] is gone",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426385803831,
+    "Message": "WalkMap - refreshing views - startedWalk is NOT completed, [stop button] is gone",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426385929892,
+    "Message": "Accuracy = 10.500000 is fine",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426385929951,
+    "Message": "Sending points for walk id: 54f9f1955fcd570300000f69, request: ...%3A40.774783%2C%22lng%22%3A-73.959013%2C%22acc%22%3A10.5%2C%22ts%22%3A1426385917%7D%5D&ts=1426385929 Accuracy: 10.500000",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426385932515,
+    "Message": "Data sent to server, walkId: 54f9f1955fcd570300000f69",
+    "Severity": "Informational",
+    "Type": "ServerType"
+  },
+  {
+    "Date": 1426386050051,
+    "Message": "Accuracy = 9.700000 is fine",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426386050531,
+    "Message": "Sending points for walk id: 54f9f1955fcd570300000f69, request: ...2%3A40.774881%2C%22lng%22%3A-73.958601%2C%22acc%22%3A9.7%2C%22ts%22%3A1426386037%7D%5D&ts=1426386050 Accuracy: 9.700000",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426386052963,
+    "Message": "Data sent to server, walkId: 54f9f1955fcd570300000f69",
+    "Severity": "Informational",
+    "Type": "ServerType"
+  },
+  {
+    "Date": 1426386102283,
+    "Message": "WalkMap - refreshing views - startedWalk is NOT completed, [stop button] is gone",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426386107992,
+    "Message": "Sending add_poop: https://swifto-production-api.herokuapp.com/0.1/app/add_poop/asd/version=1.2.9&walkId=54f9f1955fcd570300000f69&dogId=540f32112ba59a02000007dd&lat=40774881&lng=-73958601&ts=1426386107",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426386108639,
+    "Message": "Meet or poo sent to server, walkId: 54f9f1955fcd570300000f69",
+    "Severity": "Informational",
+    "Type": "ServerType"
+  },
+  {
+    "Date": 1426386151120,
+    "Message": "WalkMap - refreshing views - startedWalk is NOT completed, [stop button] is gone",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426386189399,
+    "Message": "WalkMap - refreshing views - startedWalk is NOT completed, [stop button] is gone",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426386198691,
+    "Message": "Sending add_meet: https://swifto-production-api.herokuapp.com/0.1/app/add_meet/asd/version=1.2.9&walkId=54f9f1955fcd570300000f69&dogId=540f322c2ba59a02000007de&lat=40774881&lng=-73958601&ts=1426386198",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426386199532,
+    "Message": "Meet or poo sent to server, walkId: 54f9f1955fcd570300000f69",
+    "Severity": "Informational",
+    "Type": "ServerType"
+  },
+  {
+    "Date": 1426386239549,
+    "Message": "WalkMap - refreshing views - startedWalk is NOT completed, [stop button] is gone",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426386241960,
+    "Message": "DogInfo resumed",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426386246440,
+    "Message": "Schedule created, selectedFragmentIndex: 3, memory: Memory: available 420 Mb, total: 1968 Mb, threshold: 64 Mb",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426386246450,
+    "Message": "Schedule resumed",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426386257239,
+    "Message": "Schedule resumed",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426386284740,
+    "Message": "WalkMap - refreshing views - startedWalk is NOT completed, [stop button] is gone",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426386349559,
+    "Message": "WalkMap - refreshing views - startedWalk is NOT completed, [stop button] is gone",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426386366213,
+    "Message": "WalkMap - refreshing views - startedWalk is NOT completed, [stop button] is gone",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426386367749,
+    "Message": "DogInfo resumed",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426386369055,
+    "Message": "Schedule created, selectedFragmentIndex: 3, memory: Memory: available 377 Mb, total: 1968 Mb, threshold: 64 Mb",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426386369065,
+    "Message": "Schedule resumed",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  },
+  {
+    "Date": 1426386371759,
+    "Message": "Opening E-mail client for sending log",
+    "Severity": "Informational",
+    "Type": "InternalType"
+  }
+]
