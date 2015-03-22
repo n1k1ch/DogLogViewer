@@ -11,11 +11,8 @@ function compile(str, path) {
 
 
 //express properties
-
 app.set('views', __dirname + '/server/views');
 app.set('view engine', 'jade');
-
-
 
 //middleware
 app.use(stylus.middleware({
@@ -25,9 +22,8 @@ app.use(stylus.middleware({
 
 app.use(express.static(__dirname + '/public'));
 
-app.get('*', function(req, res) {
-	res.render('index');
-});
+
+require('./server/config/routes')(app);
 
 var port = 3030;
 app.listen(port);

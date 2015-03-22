@@ -1,4 +1,17 @@
 extends ../includes/layout
 
 block main-content
-	h2 ...and index view
+	nav.navbar.navbar-inverse.navbar-fixed-top
+		.container
+			.navbar-header
+				a.navbar-brand(href="/") Dog Log Viewer
+			.navbar-collapse.collapse
+				ul.nav.navbar-nav
+					li
+						a(href="/logs") Logs
+					//- li
+						a(href="/graphs") Graphs
+
+	section.content
+		h2 above the view
+		div(ng-view)
