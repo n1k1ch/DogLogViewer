@@ -1,0 +1,16 @@
+.container
+	.container
+	.row.sorting.table-head
+		.col-md-2(ng-click="sortBy('Date')") Date
+			i.glyphicon(ng-show="sortField().indexOf('Date') > -1", ng-class="{'glyphicon-chevron-down': sortField() === '-Date', 'glyphicon-chevron-up': sortField() === 'Date'}")
+		.col-md-6(ng-click="sortBy('Message')") Message
+			i.glyphicon(ng-show="sortField().indexOf('Message') > -1", ng-class="{'glyphicon-chevron-down': sortField() === '-Message', 'glyphicon-chevron-up': sortField() === 'Message'}")
+		.col-md-2(ng-click="sortBy('Severity')") Severity
+			i.glyphicon(ng-show="sortField().indexOf('Severity') > -1", ng-class="{'glyphicon-chevron-down': sortField() === '-Severity', 'glyphicon-chevron-up': sortField() === 'Severity'}")
+		.col-md-2(ng-click="sortBy('Type')") Type
+			i.glyphicon(ng-show="sortField().indexOf('Type') > -1", ng-class="{'glyphicon-chevron-down': sortField() === '-Type', 'glyphicon-chevron-up': sortField() === 'Type'}")
+	.row.data-row(ng-repeat="entry in log | orderBy: sortField()", ng-class="{warning: entry.Severity === 'Warning', danger: entry.Severity === 'Error' }")
+		.col-md-2 {{entry.Date | date:'yyyy-MM-dd HH:mm:ss'}}
+		.col-md-6.logMsg {{entry.Message}}
+		.col-md-2 {{entry.Severity}}
+		.col-md-2 {{entry.Type}}
