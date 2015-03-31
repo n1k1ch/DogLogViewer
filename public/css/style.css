@@ -1,3 +1,10 @@
+@font-face {
+  font-family: digital-7regular;
+  src: url("/app/fonts/digital_7_regular/digital-7-webfont.eot");
+  src: url("/app/fonts/digital_7_regular/digital-7-webfont.eot?#iefix") format(embedded-opentype), url("/app/fonts/digital_7_regular/digital-7-webfont.woff") format(woff), url("/app/fonts/digital_7_regular/digital-7-webfont.ttf") format(truetype), url("/app/fonts/digital_7_regular/digital-7-webfont.svg#digital-7regular") format(svg);
+  font-weight: normal;
+  font-style: normal;
+}
 h1 {
   color: #ef8c23;
 }
@@ -31,11 +38,12 @@ table.logEntries tr.danger {
 }
 .table-head div i {
   height: 100%;
+  margin-left: 10px;
 }
 .data-row {
   border-bottom: 1px solid #eee;
   border-left: 5px solid #ea922a;
-  padding: 10px 20px;
+  padding: 10px 0;
 }
 .data-row.danger {
   background-color: #900;
@@ -45,6 +53,24 @@ table.logEntries tr.danger {
   background-color: #990;
   color: #333;
 }
-.logMsg {
+.data-row .logMsg {
   word-wrap: break-word;
+  background-color: #777;
+  border-radius: 5px;
+  padding: 10px 20px;
+}
+@media (max-width: 991px) {
+  .data-row .logMsg {
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-left: 5px solid #ea922a;
+  }
+}
+.data-row .logDate,
+.data-row .logTime {
+  font-family: digital-7regular;
+}
+.data-row .logTime {
+  font-size: 150%;
+  color: #ea922a;
 }

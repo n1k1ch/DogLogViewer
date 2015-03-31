@@ -1,11 +1,14 @@
+@require(vars)
+@require(typography)
+
 h1
 	color: #EF8C23;
 
 body
 	margin-top 69px
 	background-color: #333;
-	color: #EEE;
-	font-size 16px;
+	color: color-white
+	font-size base-font-size;
 
 table.logEntries
 	th
@@ -23,20 +26,37 @@ table.logEntries
 			-webkit-box-shadow: inset 0px 20px 10px -4px rgba(119,119,119,1);
 			-moz-box-shadow: inset 0px 20px 10px -4px rgba(119,119,119,1);
 			box-shadow: inset 0px 20px 10px -4px rgba(119,119,119,1);
-		padding 10px 20px
+		padding padding padding * 2
 		font-size 120%;
 		line-height 150%;
 		i
 			height 100%
+			margin-left 10px
 .data-row
-	border-bottom: 1px solid #eee;
-	border-left: 5px solid #EA922A;
-	padding: 10px 20px;
+	border-bottom: 1px solid color-white
+	border-left: 5px solid color-orange
+	padding: padding 0;
 	&.danger
 		background-color #900
 		color #fff
 	&.warning
 		background-color #990
 		color #333
-.logMsg
-	word-wrap break-word
+		
+	.logMsg
+		word-wrap break-word
+		background-color #777
+		border-radius 5px
+		padding padding padding * 2
+		
+		@media(max-width: 991px)
+			border-top-left-radius 20px
+			border-bottom-left-radius 20px
+			border-left 5px solid color-orange
+	.logDate,.logTime
+		font-family digital-7regular
+	.logTime
+		font-size 150%
+		color color-orange
+	//div
+	//	padding padding padding * 2

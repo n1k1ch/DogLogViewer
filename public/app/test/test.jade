@@ -1,5 +1,4 @@
-.container
-	.container
+.container-fluid
 	.row.sorting.table-head
 		.col-md-2(ng-click="sortBy('Date')") Date
 			i.glyphicon(ng-show="sortField().indexOf('Date') > -1", ng-class="{'glyphicon-chevron-down': sortField() === '-Date', 'glyphicon-chevron-up': sortField() === 'Date'}")
@@ -10,7 +9,9 @@
 		.col-md-2(ng-click="sortBy('Type')") Type
 			i.glyphicon(ng-show="sortField().indexOf('Type') > -1", ng-class="{'glyphicon-chevron-down': sortField() === '-Type', 'glyphicon-chevron-up': sortField() === 'Type'}")
 	.row.data-row(ng-repeat="entry in log | orderBy: sortField()", ng-class="{warning: entry.Severity === 'Warning', danger: entry.Severity === 'Error' }")
-		.col-md-2 {{entry.Date | date:'yyyy-MM-dd HH:mm:ss'}}
+		.col-md-2
+			div.logDate {{entry.Date | date:'MMM dd, yyyy'}}
+			.logTime {{entry.Date | date:'HH:mm:ss:sss'}}
 		.col-md-6.logMsg {{entry.Message}}
 		.col-md-2 {{entry.Severity}}
 		.col-md-2 {{entry.Type}}
