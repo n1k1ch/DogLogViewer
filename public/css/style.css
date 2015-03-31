@@ -37,6 +37,14 @@ table.logEntries tr.danger {
   border-left: 5px solid #ea922a;
   padding: 10px 20px;
 }
+.data-row.danger {
+  background-color: #900;
+  color: #fff;
+}
+.data-row.warning {
+  background-color: #990;
+  color: #333;
+}
 .logMsg {
   word-wrap: break-word;
 }
