@@ -33,16 +33,46 @@ table.logEntries
 			height 100%
 			margin-left 10px
 .data-row
-	border-bottom: 1px solid color-white
+	// border-bottom: 1px solid color-white
 	border-left: 5px solid color-orange
+	border-right: 5px solid color-orange
 	padding: padding 0;
-	&.danger
-		background-color #900
-		color #fff
-	&.warning
-		background-color #990
-		color #333
+	@media(max-width: 991px)
+		border-right none
+		border-bottom: 1px solid color-white	
+	.logDate,.logTime
+		font-family digital-7regular
+	.logTime
+		font-size 150%
+		color color-orange
+	.logSever,.logType
+		font-size 200%
+		color color-gray
 		
+	&.danger
+		border-left 15px solid color-red
+		border-right: 15px solid color-red
+		color #fff
+		.logSever,.logType
+			color color-red
+		.logTime
+			color color-red
+		.logMsg
+			color color-red
+			@media(max-width: 991px)
+				border-left 5px solid color-red
+	&.warning
+		border-left 15px solid color-yellow
+		border-right: 15px solid color-yellow
+		color #eee
+		.logSever,.logType
+			color color-yellow
+		.logTime
+			color color-yellow
+		.logMsg
+			color color-yellow
+			@media(max-width: 991px)
+				border-left 5px solid color-yellow
 	.logMsg
 		word-wrap break-word
 		background-color #777
@@ -53,10 +83,6 @@ table.logEntries
 			border-top-left-radius 20px
 			border-bottom-left-radius 20px
 			border-left 5px solid color-orange
-	.logDate,.logTime
-		font-family digital-7regular
-	.logTime
-		font-size 150%
-		color color-orange
+		
 	//div
 	//	padding padding padding * 2

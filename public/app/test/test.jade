@@ -1,17 +1,19 @@
 .container-fluid
 	.row.sorting.table-head
+		.col-md-1(ng-click="sortBy('Severity')") Lvl
+			i.fa(ng-show="sortField().indexOf('Severity') > -1", ng-class="{'fa-chevron-down': sortField() === '-Severity', 'fa-chevron-up': sortField() === 'Severity'}")
+		.col-md-1(ng-click="sortBy('Type')") Type
+			i.fa(ng-show="sortField().indexOf('Type') > -1", ng-class="{'fa-chevron-down': sortField() === '-Type', 'fa-chevron-up': sortField() === 'Type'}")
 		.col-md-2(ng-click="sortBy('Date')") Date
-			i.glyphicon(ng-show="sortField().indexOf('Date') > -1", ng-class="{'glyphicon-chevron-down': sortField() === '-Date', 'glyphicon-chevron-up': sortField() === 'Date'}")
-		.col-md-6(ng-click="sortBy('Message')") Message
-			i.glyphicon(ng-show="sortField().indexOf('Message') > -1", ng-class="{'glyphicon-chevron-down': sortField() === '-Message', 'glyphicon-chevron-up': sortField() === 'Message'}")
-		.col-md-2(ng-click="sortBy('Severity')") Severity
-			i.glyphicon(ng-show="sortField().indexOf('Severity') > -1", ng-class="{'glyphicon-chevron-down': sortField() === '-Severity', 'glyphicon-chevron-up': sortField() === 'Severity'}")
-		.col-md-2(ng-click="sortBy('Type')") Type
-			i.glyphicon(ng-show="sortField().indexOf('Type') > -1", ng-class="{'glyphicon-chevron-down': sortField() === '-Type', 'glyphicon-chevron-up': sortField() === 'Type'}")
+			i.fa(ng-show="sortField().indexOf('Date') > -1", ng-class="{'fa-chevron-down': sortField() === '-Date', 'fa-chevron-up': sortField() === 'Date'}")
+		.col-md-8(ng-click="sortBy('Message')") Message
+			i.fa(ng-show="sortField().indexOf('Message') > -1", ng-class="{'fa-chevron-down': sortField() === '-Message', 'fa-chevron-up': sortField() === 'Message'}")
 	.row.data-row(ng-repeat="entry in log | orderBy: sortField()", ng-class="{warning: entry.Severity === 'Warning', danger: entry.Severity === 'Error' }")
+		.col-md-1.logSever.text-center
+			i.fa(ng-class="{'fa-info': entry.Severity === 'Informational', 'fa-fire-extinguisher': entry.Severity === 'Error', 'fa-bell': entry.Severity === 'Warning'}")
+		.col-md-1.logType
+			i.fa(ng-class="{'fa-server' : entry.Type === 'ServerType', 'fa-android' : entry.Type === 'InternalType'}")
 		.col-md-2
 			div.logDate {{entry.Date | date:'MMM dd, yyyy'}}
-			.logTime {{entry.Date | date:'HH:mm:ss:sss'}}
-		.col-md-6.logMsg {{entry.Message}}
-		.col-md-2 {{entry.Severity}}
-		.col-md-2 {{entry.Type}}
+			.logTime {{entry.Date | date:'HH:mm:ss.sss'}}
+		.col-md-8.logMsg {{entry.Message}}

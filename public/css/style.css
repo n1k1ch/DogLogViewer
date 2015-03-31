@@ -41,17 +41,68 @@ table.logEntries tr.danger {
   margin-left: 10px;
 }
 .data-row {
-  border-bottom: 1px solid #eee;
   border-left: 5px solid #ea922a;
+  border-right: 5px solid #ea922a;
   padding: 10px 0;
 }
+@media (max-width: 991px) {
+  .data-row {
+    border-right: none;
+    border-bottom: 1px solid #eee;
+  }
+}
+.data-row .logDate,
+.data-row .logTime {
+  font-family: digital-7regular;
+}
+.data-row .logTime {
+  font-size: 150%;
+  color: #ea922a;
+}
+.data-row .logSever,
+.data-row .logType {
+  font-size: 200%;
+  color: #999;
+}
 .data-row.danger {
-  background-color: #900;
+  border-left: 15px solid #a00;
+  border-right: 15px solid #a00;
   color: #fff;
 }
+.data-row.danger .logSever,
+.data-row.danger .logType {
+  color: #a00;
+}
+.data-row.danger .logTime {
+  color: #a00;
+}
+.data-row.danger .logMsg {
+  color: #a00;
+}
+@media (max-width: 991px) {
+  .data-row.danger .logMsg {
+    border-left: 5px solid #a00;
+  }
+}
 .data-row.warning {
-  background-color: #990;
-  color: #333;
+  border-left: 15px solid #cc0;
+  border-right: 15px solid #cc0;
+  color: #eee;
+}
+.data-row.warning .logSever,
+.data-row.warning .logType {
+  color: #cc0;
+}
+.data-row.warning .logTime {
+  color: #cc0;
+}
+.data-row.warning .logMsg {
+  color: #cc0;
+}
+@media (max-width: 991px) {
+  .data-row.warning .logMsg {
+    border-left: 5px solid #cc0;
+  }
 }
 .data-row .logMsg {
   word-wrap: break-word;
@@ -65,12 +116,4 @@ table.logEntries tr.danger {
     border-bottom-left-radius: 20px;
     border-left: 5px solid #ea922a;
   }
-}
-.data-row .logDate,
-.data-row .logTime {
-  font-family: digital-7regular;
-}
-.data-row .logTime {
-  font-size: 150%;
-  color: #ea922a;
 }
