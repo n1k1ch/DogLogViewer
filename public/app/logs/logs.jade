@@ -1,0 +1,5 @@
+.container
+	.row
+		.col-md-11
+			div.list-group
+				a.list-group-item(ng-repeat="log in logs", href="/logs/{{log._id}}") {{log.Name}}

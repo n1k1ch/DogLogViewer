@@ -1,0 +1,17 @@
+.container-fluid
+	.row
+		.col-md-11
+			.container-fluid
+				.row.sorting.table-head
+					.col-md-1.col-xs-6(ng-click="sortBy('Severity')", ng-class="{'sort-bottom' : sortField() === '-Severity', 'sort-top' : sortField() === 'Severity'}") Lvl
+					.col-md-1.col-xs-6(ng-click="sortBy('Type')", ng-class="{'sort-bottom' : sortField() === '-Type', 'sort-top' : sortField() === 'Type'}") Type
+					.col-md-2.col-xs-12(ng-click="sortBy('Date')", ng-class="{'sort-bottom' : sortField() === '-Date', 'sort-top' : sortField() === 'Date'}") Date
+					.col-md-8.col-xs-12(ng-click="sortBy('Message')", ng-class="{'sort-bottom' : sortField() === '-Message', 'sort-top' : sortField() === 'Message'}") Message
+				.row.data-row(ng-repeat="entry in log | orderBy: sortField()", ng-class="{warning: entry.Severity === 'Warning', danger: entry.Severity === 'Error' }")
+					.col-md-2.col-xs-6.logSever
+						i.fa(ng-class="{'fa-info': entry.Severity === 'Informational', 'fa-fire-extinguisher': entry.Severity === 'Error', 'fa-bell': entry.Severity === 'Warning'}")
+						i.fa(ng-class="{'fa-server' : entry.Type === 'ServerType', 'fa-android' : entry.Type === 'InternalType'}")
+					.col-md-2.col-xs-12
+						div.logDate {{entry.Date | date:'MMM dd, yyyy'}}
+						.logTime {{entry.Date | date:'HH:mm:ss.sss'}}
+					.col-md-8.col-xs-12.logMsg {{entry.Message}}

@@ -40,15 +40,20 @@ table.logEntries tr.danger {
   height: 100%;
   margin-left: 10px;
 }
+.table-head div.sort-top,
+.table-head div.sort-bottom {
+  border-left: 2px solid #eee;
+  border-right: 2px solid #eee;
+}
 .table-head div.sort-top {
-  -webkit-box-shadow: inset 0px 10px 10px 5px #2854ad;
-  -moz-box-shadow: inset 0px 10px 10px 5px #2854ad;
-  box-shadow: inset 0px 10px 10px 5px #2854ad;
+  border-top: 2px solid #eee;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
 }
 .table-head div.sort-bottom {
-  -webkit-box-shadow: inset 0px -10px 10px 5px #cccc42;
-  -moz-box-shadow: inset 0px -10px 10px 5px #cccc42;
-  box-shadow: inset 0px -10px 10px 5px #cccc42;
+  border-bottom: 2px solid #eee;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
 }
 .data-row {
   border-left: 5px solid #ea922a;
