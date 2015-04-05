@@ -1,5 +1,6 @@
 @require(vars)
 @require(typography)
+@require(bootstrap-overwrites)
 
 h1
 	color: #EF8C23;
@@ -50,7 +51,7 @@ table.logEntries
 	padding: padding 0;
 	@media(max-width: 991px)
 		border-right none
-		border-bottom: 1px solid color-white	
+		border-bottom: 1px solid color-white
 	.logDate,.logTime
 		font-family digital-7regular
 		@media(max-width: 991px)
@@ -67,8 +68,8 @@ table.logEntries
 			text-align left
 		i:last-child
 			margin-left padding * 4
-		
-		
+
+
 	&.danger
 		border-left 5px solid color-red
 		border-right: 5px solid color-red
@@ -98,7 +99,7 @@ table.logEntries
 		background-color #777
 		border-radius 5px
 		padding padding padding * 2
-		
+
 		@media(max-width: 991px)
 			border-top-left-radius 20px
 			border-bottom-left-radius 20px

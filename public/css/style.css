@@ -5,6 +5,9 @@
   font-weight: normal;
   font-style: normal;
 }
+.well {
+  background-color: #222;
+}
 h1 {
   color: #ef8c23;
 }
